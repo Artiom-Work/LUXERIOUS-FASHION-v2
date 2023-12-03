@@ -7,9 +7,27 @@
     justify-content: space-between;
     align-items: center;
   }
+  .header__left-wrp {
+    max-width: 111px;
+    width: 100%;
+    min-height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .logo {
+    display: block;
+    width: 44px;
+    height: 38px;
+  }
   .user-icon,
   .cart-icon-wrp {
     display: none;
+    cursor: pointer;
+  }
+  .bar-icon,
+  .search-icon {
+    cursor: pointer;
   }
 }
 .search-icon {
@@ -37,7 +55,6 @@
         border-radius: 50%;
         right: -8px;
         top: -19px;
-        font-family: $font1;
         font-size: 12px;
         line-height: 19px;
       }

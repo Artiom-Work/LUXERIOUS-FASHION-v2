@@ -5,4 +5,10 @@
 @import "variables.css";
 // =========
 @import "variables";
+body {
+  font-family: $Lato;
+  font-size: 14px;
+  font-weight: 400;
+}
 @import "header.scss";
+@import "brand";
