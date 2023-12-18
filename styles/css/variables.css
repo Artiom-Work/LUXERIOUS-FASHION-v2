@@ -1,8 +1,14 @@
 :root {
+	--color0: #000;
 	--color1: #222222;
 	--color2: white;
 	--color3: #f16d7f;
 	--color4: #F1E4E6;
 	--color5: #6F6E6E;
+	--color6: #9F9F9F;
+	--color7: #F8F8F8;
+	--color8: #5D5D5D;
+	--color9: #ff6a6a;
+	--color10: #F26376;
 	--font1: Lato, sans-serif;
 }

@@ -6,7 +6,7 @@
 
 Макет -> [<span style="color:#5beb63">figma</span>](https://www.figma.com/file/A0xDvMJEVjiET60WoasrkG/Shop-Layout?type=design&mode=design&t=CGd40175wV9sTods-1)
 
-Вёрстка -> [**<span style="color:#5beb63">git pages</span>**]()
+Вёрстка -> [**<span style="color:#5beb63">git pages</span>**](https://artiom30.github.io/LUXERIOUS-FASHION/index.html)
 
 ### <span style="color:#3e39cc">Технологии и способы вёрстки</span> :
 

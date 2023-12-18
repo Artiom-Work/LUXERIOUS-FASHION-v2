@@ -1,14 +1,11 @@
-@import "normolize.css";
-@import "nulling-styles.css";
-@import "fonts.css";
-@import "animation-hover.css";
+@import "../css/normolize.css";
+@import "../css/nulling-styles.css";
+@import "../css/fonts.css";
 @import "variables.css";
-// =========
 @import "variables";
-body {
-  font-family: $Lato;
-  font-size: 14px;
-  font-weight: 400;
-}
-@import "header.scss";
+@import "animation-hover";
+@import "general";
+@import "header";
 @import "brand";
+@import "offers";
+@import "./fetured";
