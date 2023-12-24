@@ -10,4 +10,10 @@
     background: $color3;
     color: $color2;
   }
+  .footer {
+    &__social-link:hover {
+      color: $color2;
+      background: $color3;
+    }
+  }
 }

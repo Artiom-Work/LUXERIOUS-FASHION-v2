@@ -1,0 +1,45 @@
+.services {
+  background-color: $color11;
+  padding: 48px 14px 81px;
+  &__list {
+    display: grid;
+    gap: 46px;
+  }
+  &__unit {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__name,
+  &__description {
+    color: $color12;
+    text-align: center;
+  }
+  &__name {
+    font-size: 19.96px;
+    line-height: 24px;
+    margin-top: 27px;
+    margin-bottom: 15px;
+  }
+  &__description {
+    max-width: 340px;
+    width: 100%;
+    font-size: 13.972px;
+    line-height: 17px;
+    font-weight: 300;
+    span {
+      white-space: nowrap;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .services {
+    padding: 100px 14px;
+    &__list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+  }
+}
