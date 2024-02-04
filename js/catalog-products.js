@@ -1,6 +1,6 @@
-import { productsData } from "./data.js";
+import { catalogProductsData } from "./data.js";
 
-const productCards = JSON.parse(productsData);
+const productCards = JSON.parse(catalogProductsData);
 
 const productsList = document.querySelector('.fetured__list');
 

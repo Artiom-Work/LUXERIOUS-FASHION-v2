@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Catalog</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="styles/css/style.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__menu-dark hidden">
+		</div>
+		<div class="container">
+			<div class="header__left-wrp">
+				<a class="logo" href="index.html">
+					<img class="logo__image" src="images/header/logo.png" alt="Логотип магазина">
+				</a>
+				<img class="search-icon" src="images/header/search.png" width="26" height="26" alt="Иконка для поиска по сайту">
+			</div>
+
+			<div class="header__right-wrp">
+				<img class="bar-icon" src="images/header/bar.png" width="32" height="23"
+					alt="Иконка для открытия меню сайта на мобильном устройстве">
+				<img class="user-icon" src="images/header/user.png" alt="Иконка для входа в профиль польователя">
+
+				<span class="cart-icon-wrp">
+					<img class="cart-icon" src="images/header/cart.png" alt="Иконка для входа в корзину товаров пользователя">
+					<span>5</span>
+				</span>
+			</div>
+			<div class="header__menu menu hidden">
+				<img class="menu__close" src="images/brand/obelus.png" alt="Крестик для карытия меню сайта" width="12"
+					height="12">
+				<ul class="menu__list">
+					<li class="menu__item menu__item_heading">
+						<span>menu</span>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item-title" href="!#">
+							man
+						</a>
+					</li>
+					<li class="menu__item">
+						<ul class="menu__sublist">
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Accessories</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Bags</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Denim</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">T-Shirts</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item-title" href="!#">
+							woman
+						</a>
+					</li>
+					<li class="menu__item">
+						<ul class="menu__sublist">
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Accessories</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Jackets &amp;&nbsp;Coats</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Polos</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">T-Shirts</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Shirts</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item-title" href="!#">
+							kids
+						</a>
+					</li>
+					<li class="menu__item">
+						<ul class="menu__sublist">
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Accessories</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Jackets &amp;&nbsp;Coats</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Polos</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">T-Shirts</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Shirts</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Bags</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="new-arrivals">
+			<div class="container">
+				<h1 class="new-arrivals__title">NEW ARRIVALS</h1>
+				<nav class="new-arrivals__nav">
+					<a class="new-arrivals__nav-link" href="./index.html">HOME</a>
+					<span>/</span>
+					<a class="new-arrivals__nav-link" href="#">MEN</a>
+					<span>/</span>
+					<a class="new-arrivals__nav-link" href="#">NEW ARRIVALS</a>
+				</nav>
+			</div>
+		</section>
+
+		<div class="filters">
+			<div class="container">
+				<div class="filters__left">
+					<div class="filters__left-wrapper">
+						<span class="filters__left-label">FILTER</span>
+						<img class="filters__left-icon" src="images/filter-icon.svg" alt="Иконка фильтра">
+					</div>
+					<div class="filters__popup hidden">
+						<nav class="filters__nav">
+							<span class="filters__nav-heading">CATEGORY</span>
+							<ul class="filters__nav-list hidden">
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Accessories</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Bags</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Denim</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Hoodies &amp;&nbsp;Sweatshirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Jackets &amp;&nbsp;Coats</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Polos</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Shirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Shoes</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Sweaters &amp;&nbsp;Knits</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">T-Shirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Tanks</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="filters__nav">
+							<span class="filters__nav-heading">BRAND</span>
+							<ul class="filters__nav-list hidden">
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Accessories</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Bags</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Denim</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Hoodies &amp;&nbsp;Sweatshirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Jackets &amp;&nbsp;Coats</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Polos</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Shirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Shoes</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Sweaters &amp;&nbsp;Knits</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">T-Shirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Tanks</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="filters__nav">
+							<span class="filters__nav-heading">DESIGNER</span>
+							<ul class="filters__nav-list hidden">
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Accessories</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Bags</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Denim</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Hoodies &amp;&nbsp;Sweatshirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Jackets &amp;&nbsp;Coats</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Polos</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Shirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Shoes</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Sweaters &amp;&nbsp;Knits</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">T-Shirts</a>
+								</li>
+								<li class="filters__nav-item">
+									<a class="filters__nav-link" href="#!">Tanks</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<ul class="filters__right">
+					<li class="filters__right-item">
+						<div class="filters__right-label">
+							<span class="filters__right-name">TRENDING NOW</span>
+							<img class="filters__right-icon" src="./images/filter-arrow.svg" alt="Иконка фильтра">
+						</div>
+						<ul class="filters__right-list hidden">
+							<li class="filters__right-option">
+								<input id="tarand1" class="filters__right-checkbox" type="checkbox" name="tarand1">
+								<label for="tarand1">lorem</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="tarand2" class="filters__right-checkbox" type="checkbox" name="tarand2">
+								<label for="tarand2">lorem</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="tarand3" class="filters__right-checkbox" type="checkbox" name="tarand3">
+								<label for="tarand3">lorem</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="tarand4" class="filters__right-checkbox" type="checkbox" name="tarand4">
+								<label for="tarand4">lorem</label>
+							</li>
+						</ul>
+					</li>
+					<li class="filters__right-item">
+						<div class="filters__right-label">
+							<span class="filters__right-name">SIZE</span>
+							<img class="filters__right-icon" src="./images/filter-arrow.svg" alt="Иконка фильтра">
+						</div>
+						<ul class="filters__right-list hidden">
+							<li class="filters__right-option">
+								<input id="xs" class="filters__right-checkbox" type="checkbox" name="xs">
+								<label for="xs">XS</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="s" class="filters__right-checkbox" type="checkbox" name="s">
+								<label for="s">S</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="m" class="filters__right-checkbox" type="checkbox" name="m">
+								<label for="m">M</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="l" class="filters__right-checkbox" type="checkbox" name="l">
+								<label for="l">L</label>
+							</li>
+						</ul>
+					</li>
+					<li class="filters__right-item">
+						<div class="filters__right-label">
+							<span class="filters__right-name">PRICE</span>
+							<img class="filters__right-icon" src="./images/filter-arrow.svg" alt="Иконка фильтра">
+						</div>
+						<ul class="filters__right-list hidden">
+							<li class="filters__right-option">
+								<input id="price1" class="filters__right-checkbox" type="checkbox" name="price1">
+								<label for="price1">10$</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="price2" class="filters__right-checkbox" type="checkbox" name="price2">
+								<label for="price2">20$</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="price3" class="filters__right-checkbox" type="checkbox" name="price3">
+								<label for="price3">30$</label>
+							</li>
+							<li class="filters__right-option">
+								<input id="price4" class="filters__right-checkbox" type="checkbox" name="price4">
+								<label for="price4">40$</label>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="fetured fetured--catalog container">
+			<ul class="fetured__list"></ul>
+			<div class="fetured__pagination pagination">
+				<a class="fetured__pagination-switcher-link" href="#!">
+					<img class="fetured__pagination-switcher fetured__pagination-switcher--left"
+						src="images/switch-pagination-icon-left.svg" alt="Переключатель нумерации страниц с товарами">
+				</a>
+				<a class="fetured__pagination-page" href="#!">1</a>
+				<a class="fetured__pagination-page" href="#!">2</a>
+				<a class="fetured__pagination-page" href="#!">3</a>
+				<a class="fetured__pagination-page" href="#!">4</a>
+				<a class="fetured__pagination-page" href="#!">5</a>
+				<a class="fetured__pagination-page" href="#!">6</a>
+				<a class="fetured__pagination-switcher-link" href="#!">
+					<img class="fetured__pagination-switcher fetured__pagination-switcher--right"
+						src="images/switch-pagination-icon-right.svg" alt="Переключатель нумерации страниц с товарами">
+				</a>
+
+			</div>
+		</div>
+
+		<div class="services">
+			<div class="container">
+				<ul class="services__list">
+					<li class="services__item">
+						<article class="services__unit">
+							<img class="services__image" src="images/services/delivery.svg" alt="Image about the delivery">
+							<h2 class="services__name">Free Delivery</h2>
+							<p class="services__description">
+								Worldwide delivery on&nbsp;all. Authorit&nbsp;tively morph <span>next-generation</span> innov tion with
+								extensive
+								models.
+							</p>
+						</article>
+					</li>
+					<li class="services__item">
+						<article class="services__unit">
+							<img class="services__image" src="images/services/discounts.svg" alt="Image about the discounts">
+							<h2 class="services__name">Sales &amp;&nbsp;discounts</h2>
+							<p class="services__description">
+								Worldwide delivery on&nbsp;all. Authorit&nbsp;tively morph <span>next-generation</span> innov tion with
+								extensive
+								models.
+							</p>
+						</article>
+					</li>
+					<li class="services__item">
+						<article class="services__unit">
+							<img class="services__image" src="images/services/assurance.svg" alt="Crown image">
+							<h2 class="services__name">Quality assurance</h2>
+							<p class="services__description">
+								Worldwide delivery on&nbsp;all. Authorit&nbsp;tively morph <span>next-generation</span> innov tion with
+								extensive
+								models.
+							</p>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="subscribe">
+			<div class="container">
+				<div class="subscribe__left">
+					<img class="subscribe__user-image" src="images/subscribe/subscribe-user.png" alt="subscribe user photo">
+					<p class="subscribe__user-text">
+						"Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum"
+					</p>
+				</div>
+				<div class="subscribe__right">
+					<h2 class="subscribe__title">SUBSCRIBE</h2>
+					<p class="subscribe__text">
+						FOR OUR NEWLETTER AND PROMOTION
+					</p>
+					<form class="subscribe__form" action="#" method="get">
+						<input class="subscribe__input" type="text" name="user-email" placeholder="Enter Your Email">
+						<button class="subscribe__button">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__social">
+				<ul class="footer__social-list">
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__copyright">
+				<span>&copy;&nbsp;2021 Brand All Rights Reserved.</span>
+			</div>
+		</div>
+	</footer>
+
+	<script type="module" src="js/main.js"></script>
+	<script type="module" src="js/app.js"></script>
+	<script type="module" src="js/catalog-products.js"></script>
+
+</body>
+
+</html>
