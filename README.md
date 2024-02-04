@@ -30,7 +30,7 @@
 
 Вёрстка -> [**<span style="color:limegreen">git pages</span>**](https://artiom30.github.io/LUXERIOUS-FASHION/index.html)
 
-<img src="images/website/" width="400" alt="Изображение макета страницы">
+<img src="images/website/prewiew-readme.png" width="400" alt="Изображение макета страницы">
 
 ---
 
