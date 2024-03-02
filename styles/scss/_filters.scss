@@ -79,6 +79,7 @@
   }
   &__right {
     display: flex;
+    z-index: 1;
     &-item {
       position: relative;
     }

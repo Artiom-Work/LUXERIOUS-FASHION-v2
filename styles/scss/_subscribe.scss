@@ -1,5 +1,5 @@
 .subscribe {
-  background: url(../../images/subscribe/subscribe-background.jpg) no-repeat;
+  background: url(#{$imagesPath}/subscribe/subscribe-background.jpg) no-repeat;
   background-size: cover;
   padding: 64px 20px 109px;
   &__left {

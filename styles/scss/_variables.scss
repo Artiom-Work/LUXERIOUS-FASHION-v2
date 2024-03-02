@@ -17,8 +17,15 @@ $color15: var(--color15);
 $color16: var(--color16);
 $color17: var(--color17);
 $color18: var(--color18);
+$color19: var(--color19);
+$color20: var(--color20);
+$color21: var(--color21);
+$color22: var(--color22);
+$color23: var(--color23);
 $Lato: var(--font1);
 $font2: var(--font2);
+
+$imagesPath: "../../images";
 
 @mixin flexCenter {
   display: flex;

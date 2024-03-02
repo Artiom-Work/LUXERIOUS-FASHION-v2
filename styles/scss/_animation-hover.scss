@@ -13,24 +13,34 @@
   // &__left-icon:active + .filters__popap {
   //   display: block;
   // }
-}
-.offers__card:hover .offers__link::before {
-  background-color: rgba(33, 22, 22, 0);
-}
-.fetured__item:hover .brand-item__hover-wrapper {
-  visibility: visible;
-  background: rgba(58, 56, 56, 0.86);
-}
-.fetured__button:hover {
-  background: $color3;
-  color: $color2;
-}
-.fetured__pagination-page:hover {
-  color: $color16;
-}
-.footer {
-  &__social-link:hover {
-    color: $color2;
+  .slider {
+    &__switcher {
+      &-left:hover,
+      &-right:hover {
+        .slider__switcher-svg {
+          fill: $color3;
+        }
+      }
+    }
+  }
+  .offers__card:hover .offers__link::before {
+    background-color: rgba(33, 22, 22, 0);
+  }
+  .fetured__item:hover .brand-item__hover-wrapper {
+    visibility: visible;
+    background: rgba(58, 56, 56, 0.86);
+  }
+  .fetured__button:hover {
     background: $color3;
+    color: $color2;
+  }
+  .fetured__pagination-page:hover {
+    color: $color16;
+  }
+  .footer {
+    &__social-link:hover {
+      color: $color2;
+      background: $color3;
+    }
   }
 }
