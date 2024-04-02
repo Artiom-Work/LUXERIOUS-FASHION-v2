@@ -10,6 +10,7 @@
 		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
 		crossorigin="anonymous" />
 	<link rel="stylesheet" href="styles/css/style.css">
+
 </head>
 
 <body>
@@ -167,19 +168,79 @@
 			<div class="collection__product-characteristics-wrp product-characteristics">
 				<ul class="product-characteristics__filters-list">
 					<li class="product-characteristics__filters-list-item">
-						<span class="product-characteristics__filters-name">CHOOSE COLOR</span>
-						<img class="product-characteristics__filters-icon" src="./images/filter-arrow.svg"
-							alt="Product feature selection filter icon">
+						<div class="product-characteristics__filters-list-label">
+							<span class="product-characteristics__filters-name">CHOOSE&nbsp;COLOR</span>
+							<img class="product-characteristics__filters-icon" src="./images/filter-arrow.svg"
+								alt="Product feature selection filter icon">
+						</div>
+
+						<ul class="product-characteristics__filters-drop-list hidden">
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-color1" name="product-color1"
+									type="checkbox">
+								<label for="product-color1" class="product-characteristics__filters-drop-name">Red</label>
+							</li>
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-color2" name="product-color2"
+									type="checkbox">
+								<label for="product-color2" class="product-characteristics__filters-drop-name">White</label>
+							</li>
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-color3" name="product-color3"
+									type="checkbox">
+								<label for="product-color3" class="product-characteristics__filters-drop-name">Blue</label>
+							</li>
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-color4" name="product-color4"
+									type="checkbox">
+								<label for="product-color4" class="product-characteristics__filters-drop-name">Black</label>
+							</li>
+						</ul>
 					</li>
 					<li class="product-characteristics__filters-list-item">
-						<span class="product-characteristics__filters-name">CHOOSE SIZE</span>
-						<img class="product-characteristics__filters-icon" src="./images/filter-arrow.svg"
-							alt="Product feature selection filter icon">
+						<div class="product-characteristics__filters-list-label">
+							<span class="product-characteristics__filters-name">CHOOSE&nbsp;SIZE</span>
+							<img class="product-characteristics__filters-icon" src="./images/filter-arrow.svg"
+								alt="Product feature selection filter icon">
+						</div>
+
+
+						<ul class="product-characteristics__filters-drop-list hidden">
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-size1" name="product-size1"
+									type="checkbox">
+								<label for="product-size1" class="product-characteristics__filters-drop-name">S</label>
+							</li>
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-size2" name="product-size2"
+									type="checkbox">
+								<label for="product-size2" class="product-characteristics__filters-drop-name">M</label>
+							</li>
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-size3" name="product-size3"
+									type="checkbox">
+								<label for="product-size3" class="product-characteristics__filters-drop-name">L</label>
+							</li>
+							<li class="product-characteristics__filters-drop-item">
+								<input class="product-characteristics__filters-drop-checkbox" id="product-size4" name="product-size4"
+									type="checkbox">
+								<label for="product-size4" class="product-characteristics__filters-drop-name">XL</label>
+							</li>
+						</ul>
 					</li>
 					<li class="product-characteristics__filters-list-item">
-						<span class="product-characteristics__filters-name">QUANTITY</span>
-						<img class="product-characteristics__filters-icon" src="./images/filter-arrow.svg"
-							alt="Product feature selection filter icon">
+						<div class="product-characteristics__filters-list-label">
+							<span class="product-characteristics__filters-name">QUANTITY</span>
+							<img class="product-characteristics__filters-icon" src="./images/filter-arrow.svg"
+								alt="Product feature selection filter icon">
+						</div>
+
+						<div
+							class="product-quantity product-characteristics__filters-drop-list product-characteristics__filters-drop-list_quantity hidden">
+							<button class="product-quantity__decrement-button">-</button>
+							<input class="product-quantity__input" id="user-product-quantity" type="number" min="0" value="0">
+							<button class="product-quantity__increment-button">+</button>
+						</div>
 					</li>
 				</ul>
 				<button class="product-characteristics__button">
@@ -221,22 +282,22 @@
 			<div class="footer__social">
 				<ul class="footer__social-list">
 					<li class="footer__social-item">
-						<a class="footer__social-link" href="#">
+						<a class="footer__social-link" href="#!">
 							<i class="fab fa-facebook-f"></i>
 						</a>
 					</li>
 					<li class="footer__social-item">
-						<a class="footer__social-link" href="#">
+						<a class="footer__social-link" href="#!">
 							<i class="fab fa-instagram"></i>
 						</a>
 					</li>
 					<li class="footer__social-item">
-						<a class="footer__social-link" href="#">
+						<a class="footer__social-link" href="#!">
 							<i class="fab fa-pinterest-p"></i>
 						</a>
 					</li>
 					<li class="footer__social-item">
-						<a class="footer__social-link" href="#">
+						<a class="footer__social-link" href="#!">
 							<i class="fab fa-twitter"></i>
 						</a>
 					</li>
