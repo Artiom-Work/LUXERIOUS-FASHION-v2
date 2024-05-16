@@ -1,0 +1,30 @@
+.shopping-cart {
+  min-height: 148px;
+  width: 100%;
+  background: $color14;
+  @include flexCenter;
+  &__title {
+    position: relative;
+    left: 8px;
+    top: -9px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $color3;
+  }
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+    &__title {
+      padding: 0 16px;
+      left: 0;
+      top: 0;
+    }
+  }
+  @media (min-width: 1600px) {
+    &__title {
+      padding: 0;
+    }
+  }
+}

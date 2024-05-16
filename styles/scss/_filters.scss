@@ -110,6 +110,7 @@
       padding: 7px 9px;
     }
     &-list {
+      // display: flex;
       flex-direction: column;
       gap: 9px;
     }
@@ -124,9 +125,6 @@
         font-family: $font2;
         font-size: 14px;
         line-height: 16px;
-      }
-      label:not(last-of-type) {
-        margin: 3px;
       }
     }
   }

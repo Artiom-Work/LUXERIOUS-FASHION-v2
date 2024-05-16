@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cart</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/css/style.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__menu-dark hidden">
+		</div>
+		<div class="container">
+			<div class="header__left-wrp">
+				<a class="logo" href="index.html">
+					<img class="logo__image" src="images/header/logo.png" alt="Логотип магазина">
+				</a>
+				<img class="search-icon" src="images/header/search.png" width="26" height="26" alt="Иконка для поиска по сайту">
+			</div>
+
+			<div class="header__right-wrp">
+				<img class="bar-icon" src="images/header/bar.png" width="32" height="23"
+					alt="Иконка для открытия меню сайта на мобильном устройстве">
+				<img class="user-icon" src="images/header/user.png" alt="Иконка для входа в профиль польователя">
+
+				<span class="cart-icon-wrp">
+					<img class="cart-icon" src="images/header/cart.png" alt="Иконка для входа в корзину товаров пользователя">
+					<span class="cart-icon-counter">2</span>
+				</span>
+			</div>
+			<div class="header__menu menu hidden">
+				<img class="menu__close" src="images/brand/obelus.png" alt="Крестик для карытия меню сайта" width="12"
+					height="12">
+				<ul class="menu__list">
+					<li class="menu__item menu__item_heading">
+						<span>menu</span>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item-title" href="!#">
+							man
+						</a>
+					</li>
+					<li class="menu__item">
+						<ul class="menu__sublist">
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Accessories</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Bags</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Denim</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">T&#8209;Shirts</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item-title" href="!#">
+							woman
+						</a>
+					</li>
+					<li class="menu__item">
+						<ul class="menu__sublist">
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Accessories</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Jackets &amp;&nbsp;Coats</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Polos</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">T&#8209;Shirts</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Shirts</a>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item">
+						<a class="menu__item-title" href="!#">
+							kids
+						</a>
+					</li>
+					<li class="menu__item">
+						<ul class="menu__sublist">
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Accessories</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Jackets &amp;&nbsp;Coats</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Polos</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">T&#8209;Shirts</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Shirts</a>
+							</li>
+							<li class="menu__sublist-item">
+								<a class="menu__item-link" href="!#">Bags</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="shopping-cart">
+			<div class="container">
+				<h1 class="shopping-cart__title">SHOPPING CART</h1>
+			</div>
+		</section>
+
+		<div class="cart">
+			<div class="container">
+				<div class="product-box">
+					<ul class="product-box__list">
+						<li class="product-box__item">
+							<article class="product-box__product product">
+								<button class="product__btn-delete">
+									<img class="product__btn-delete-image" src="images/close-button-icon.svg"
+										alt="Кнопка удаления товара из корзины">
+								</button>
+								<div class="product__content">
+									<div class="product__image-wrp">
+										<img class="product__image" src="images/fetured/blue-sweater.jpg" alt="Blue sweater for man">
+									</div>
+
+									<div class="product__description">
+										<h2 class="product__name">
+											MANGO&nbsp;&nbsp;PEOPLE T&#8209;SHIRT
+										</h2>
+										<p class="product__description-txt">
+											Price:&nbsp;
+											<span class="product__description-price">$300</span>
+										</p>
+										<p class="product__description-txt">
+											Color:&nbsp;
+											<span class="product__characteristic">Red</span>
+										</p>
+										<p class="product__description-txt">
+											Size:&nbsp;
+											<span class="product__characteristic">Xl</span>
+										</p>
+
+										<div class="product__quantity">
+											<label class="product__description-txt">Quantity:</label>
+											<input class="product__quantity-input" type="number" min="0" value="1" max="100">
+										</div>
+									</div>
+								</div>
+							</article>
+						</li>
+						<li class="product-box__item">
+							<article class="product-box__product product">
+								<button class="product__btn-delete">
+									<img class="product__btn-delete-image" src="images/close-button-icon.svg"
+										alt="Кнопка удаления товара из корзины">
+								</button>
+								<div class="product__content">
+									<div class="product__image-wrp">
+										<img class="product__image" src="images/fetured/red-jacket.jpg" alt="Red jacket for man">
+									</div>
+
+									<div class="product__description">
+										<h2 class="product__name">
+											MANGO&nbsp;&nbsp;PEOPLE T&#8209;SHIRT
+										</h2>
+										<p class="product__description-txt">
+											Price:&nbsp;
+											<span class="product__description-price">$300</span>
+										</p>
+										<p class="product__description-txt">
+											Color:&nbsp;
+											<span class="product__description-characteristic">Red</span>
+										</p>
+										<p class="product__description-txt">
+											Size:&nbsp;
+											<span class="product__description-characteristic">Xl</span>
+										</p>
+
+										<div class="product__quantity">
+											<label class="product__description-txt">Quantity:</label>
+											<input class="product__quantity-input" type="number" min="0" value="1" max="100">
+										</div>
+									</div>
+								</div>
+							</article>
+						</li>
+					</ul>
+
+					<div class="product-box__fail hidden">
+						<p class="product-box__fail-heading">
+							There&rsquo;s nothing left at&nbsp;all...
+						</p>
+						<div class="product-box__fail-image-wrapper">
+							<img class="product-box__fail-image" src="images/cart/sad-smile.png" alt="Sad smile">
+						</div>
+					</div>
+
+					<div class="product-box__buttons">
+						<button class="product-box__btn product-box__btn_clear">Clear shopping cart</button>
+						<a class="product-box__btn product-box__btn_link" href="./catalog.html">Continue shopping</a>
+					</div>
+				</div>
+
+				<div class="cart__placing-order placing-order">
+					<section class="placing-order__form-block delivery-block">
+						<h2 class="delivery-block__title">SHIPPING ADRESS</h2>
+						<div class="delivery-block__form-wrapper">
+							<form class="delivery-block__form delivery-form" action="#" method="get" id="delivery-form">
+								<div class="delivery-form__input-wrapper">
+									<input class="delivery-form__input delivery-form__input_country" type="text" name="delivery-country"
+										id="delivery-country" placeholder="Bangladesh">
+								</div>
+								<div class="delivery-form__input-wrapper">
+									<input class="delivery-form__input" type="text" name="delivery-state" id="delivery-state"
+										placeholder="State">
+								</div>
+								<div class="delivery-form__input-wrapper">
+									<input class="delivery-form__input" type="text" name="postcode" id="postcode"
+										placeholder="Postcode / Zip">
+								</div>
+
+								<button class="delivery-form__button">Get a&nbsp;quote</button>
+							</form>
+						</div>
+					</section>
+
+					<section class="placing-order__total-cost total-cost">
+						<h3 class="total-cost__text">
+							SUB TOTAL <span class="total-cost__text-price">$900</span>
+						</h3>
+						<h2 class="total-cost__text total-cost__text_big">
+							GRAND TOTAL<span class="total-cost__text-price total-cost__text-price_color">$900</span>
+						</h2>
+						<hr class="total-cost__divider">
+						<a class="total-cost__button" href="#!">
+							PROCEED TO&nbsp;CHECKOUT
+						</a>
+					</section>
+				</div>
+			</div>
+		</div>
+
+		<div class="subscribe">
+			<div class="container">
+				<div class="subscribe__left">
+					<img class="subscribe__user-image" src="images/subscribe/subscribe-user.png" alt="subscribe user photo">
+					<p class="subscribe__user-text subscribe__user-text_cart-page">
+						"Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi, a&nbsp;pulvinar purus condimentum"
+					</p>
+				</div>
+				<div class="subscribe__right subscribe__right_cart-page">
+					<h2 class="subscribe__title subscribe__title_cart-page">SUBSCRIBE</h2>
+					<p class="subscribe__text">
+						FOR OUR NEWLETTER AND PROMOTION
+					</p>
+					<form class="subscribe__form" action="#" method="get">
+						<input class="subscribe__input subscribe__input_cart-page" type="text" name="user-email"
+							placeholder="Enter Your Email">
+						<button class="subscribe__button">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__social">
+				<ul class="footer__social-list">
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-pinterest-p"></i>
+						</a>
+					</li>
+					<li class="footer__social-item">
+						<a class="footer__social-link" href="#">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer__copyright">
+				<span>&copy;&nbsp;2021&nbsp;&nbsp;&nbsp;Brand&nbsp;&nbsp;All Rights Reserved.</span>
+			</div>
+		</div>
+	</footer>
+
+	<script type="module" src="js/main.js"></script>
+	<script type="module" src="js/cart.js"></script>
+</body>
+
+</html>
