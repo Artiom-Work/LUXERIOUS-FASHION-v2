@@ -6,10 +6,66 @@ body {
 .hidden {
   display: none;
 }
-@media (min-width: 1600px) {
-  .container {
+.container {
+  max-width: 375px;
+  width: 100%;
+  padding: 0 8px;
+  @media (min-width: 768px) {
+    padding: 0 16px;
+    max-width: 736px;
+  }
+  @media (min-width: 1600px) {
     margin: 0 auto;
     max-width: 1140px;
-    width: 100%;
   }
 }
+
+// ====form====
+.form-block {
+  max-width: 360px;
+  width: 100%;
+  min-height: 272px;
+  &__form-title {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222;
+    margin: 0 0 20px;
+  }
+}
+.form {
+  &__input {
+    line-height: 123%;
+    border: 1px solid $color26;
+    margin-bottom: 22px;
+    padding: 12px 5px 14.2px 17.24px;
+    width: 100%;
+    font-size: 13px;
+    &__input::placeholder {
+      font-family: $Lato;
+      color: $color1;
+    }
+    &_country::placeholder {
+      color: $color27;
+    }
+  }
+  & div:last-of-type &__input {
+    margin-bottom: 23px;
+  }
+
+  &__button {
+    width: 101.41px;
+    height: 35px;
+    border: 1px solid $color26;
+    background-color: transparent;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: $color29;
+    @media (min-width: 768px) {
+      text-transform: uppercase;
+    }
+  }
+}
+// ====END-form====

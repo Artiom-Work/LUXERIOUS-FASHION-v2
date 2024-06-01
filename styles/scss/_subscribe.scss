@@ -2,6 +2,14 @@
   background: url(#{$imagesPath}/subscribe/subscribe-background.jpg) no-repeat;
   background-size: cover;
   padding: 64px 20px 109px;
+  &_registration-page {
+    padding: 64px 0 109px;
+    .container {
+      @media (min-width: 1600px) {
+        padding: 0;
+      }
+    }
+  }
   &__left {
     display: flex;
     flex-direction: column;
@@ -32,6 +40,9 @@
     &_cart-page {
       margin-top: 24px;
       font-size: 19px;
+    }
+    &_registration-page {
+      margin-top: 28px;
     }
   }
   &__right {
@@ -83,6 +94,9 @@
     float: left;
     &_cart-page {
       width: 239px;
+    }
+    &_registration-page {
+      width: 244px;
     }
   }
   &__input::-webkit-input-placeholder {

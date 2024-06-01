@@ -1,0 +1,194 @@
+.registration {
+  padding: 41px 0 96.19px;
+  @media (min-width: 768px) {
+    padding: 40px 0 53.19px;
+  }
+  @media (min-width: 1600px) {
+    padding: 64px 0 96px;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      gap: 22px;
+      min-width: 360px;
+      width: 100%;
+    }
+    @media (min-width: 1600px) {
+      justify-content: flex-start;
+      max-width: 1160px;
+      padding: 0 10px;
+      gap: 127px;
+    }
+  }
+  &__forms {
+    padding: 0 0 42px;
+    @media (min-width: 768px) {
+      max-width: 360px;
+      width: 100%;
+    }
+    @media (min-width: 1600px) {
+      padding: 0;
+    }
+  }
+  &__form-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 118%;
+    margin-bottom: 19.94px;
+    @media (min-width: 1600px) {
+      margin-bottom: 19.44px;
+    }
+  }
+  &__button {
+    padding: 12px 27px 16px 29px;
+    background-color: $color3;
+    color: $color2;
+    font-size: 14px;
+    &-arrow {
+      font-size: 19px;
+      font-weight: 900;
+      padding-left: 19px;
+    }
+  }
+}
+.form {
+  &__input {
+    max-width: 360px;
+    width: 100%;
+    min-height: 44px;
+    padding: 12px 17px 15px;
+    border: 1px solid $color26;
+    font-size: 13px;
+    line-height: 123%;
+    &::placeholder {
+      color: $color27;
+      font-family: $Lato;
+    }
+    @media (min-width: 768px) {
+      min-height: 45px;
+    }
+  }
+  &__admonition-text {
+    font-size: 13px;
+    line-height: 123%;
+    color: $color27;
+  }
+}
+.name-form {
+  margin: 0 0 33px;
+  &__input {
+    margin-bottom: 20px;
+  }
+  &__input[name="user-last-name"] {
+    margin-bottom: 33px;
+  }
+  &__radio-inputs {
+    padding: 0 0 0 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 208px;
+    min-height: 17px;
+  }
+  &__radio-input {
+    transform: scale(1.3);
+    opacity: 0.9;
+    cursor: pointer;
+    &-label {
+      display: inline-block;
+      padding: 0 0 0 12px;
+      font-size: 11px;
+      line-height: 118%;
+      position: relative;
+      top: -2px;
+    }
+  }
+}
+.login-form {
+  margin: 0 0 39px;
+  &__input {
+    margin-bottom: 19px;
+  }
+  &__input[name="user-password-name"] {
+    margin-bottom: 33px;
+  }
+  & div:last-of-type &__input {
+    margin-bottom: 15px;
+  }
+}
+.loyalty-periks {
+  max-width: 358px;
+  width: 100%;
+  min-height: 341px;
+  @media (min-width: 768px) {
+    max-width: 354px;
+    width: 100%;
+  }
+  @media (min-width: 1600px) {
+    max-width: 652px;
+    padding-top: 1px;
+  }
+  &__title,
+  &__description,
+  &__bonus {
+    font-size: 16px;
+    font-weight: 400;
+    color: $color0;
+    @media (min-width: 1600px) {
+      font-size: 24px;
+    }
+  }
+  &__title {
+    margin-bottom: 33px;
+    @media (min-width: 1600px) {
+      margin-bottom: 24px;
+    }
+  }
+  &__description {
+    margin-bottom: 23px;
+    line-height: 118%;
+  }
+  &__list {
+    max-width: 358px;
+    width: 100%;
+    min-height: 205px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    > :nth-child(3) {
+      top: -8px;
+    }
+    > :nth-child(4) {
+      top: -3px;
+    }
+    @media (min-width: 768px) {
+      min-height: 202px;
+    }
+    @media (min-width: 1600px) {
+      max-width: 652px;
+      min-height: 203px;
+      > :nth-child(2),
+      > :nth-child(3) {
+        top: -5px;
+      }
+    }
+  }
+  &__item {
+    position: relative;
+    padding-left: 42.48px;
+    &::before {
+      position: absolute;
+      content: "";
+      background-image: url(#{$imagesPath}/tick-icon.svg);
+      width: 20.23px;
+      height: 16.18px;
+      left: 1px;
+      top: 5px;
+    }
+  }
+}

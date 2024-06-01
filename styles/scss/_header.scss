@@ -5,6 +5,11 @@
   .container {
     @include flexCenterSpaceBetwen;
     position: relative;
+    max-width: 100%;
+    @media (min-width: 1600px) {
+      max-width: 1139px;
+      padding: 0;
+    }
   }
   &__left-wrp {
     max-width: 111px;
