@@ -1,10 +1,12 @@
-# <span style="color: palevioletred">LUXERIOUS-FASHION</span><p style="color:limegreen; font-size:15px">Учебная работа</p>
+# $\color{palevioletred}\text{LUXERIOUS-FASHION V-2}$
 
-### <span style="color:mediumblue">**Описание работы** :</span>
+$\color{limegreen}\text{Учебная работа}$
+
+## $\color{mediumblue}\text{Описание работы }$:
 
 Внешняя часть многостраничного сайта интернет магазина одежды.
 
-Работа на основе домашних заданий по курсу GeekBrains , "Веб-вёрстка HTML/CSS PRO".
+Работа на основе домашних заданий по курсу GeekBrains , "Веб-вёрстка HTML/CSS -pro".
 
 **Цели и задачи работы :**
 
@@ -22,33 +24,33 @@
 
 ❗Практическое применение CSS переменных.
 
-🎯 <span style="color:mediumblue">Основная задача</span> - "Знакомство" с основами вёрстки.
+🎯 <span style="color:mediumblue">Основная задача</span> - Улучшение базовых навыков вёрстки.
 
 ---
 
-Макет -> [<span style="color:limegreen">figma</span>](https://www.figma.com/file/A0xDvMJEVjiET60WoasrkG/Shop-Layout?type=design&mode=design&t=CGd40175wV9sTods-1)
+Макет -> [**Figma**](https://www.figma.com/design/A0xDvMJEVjiET60WoasrkG/Shop-Layout?m=dev&node-id=0-1&t=wkwD9cKqTZeXTi5D-1)
 
-Вёрстка -> [**<span style="color:limegreen">git pages</span>**](https://artiom30.github.io/LUXERIOUS-FASHION/index.html)
+Вёрстка -> [**Git pages**](https://artiom-work.github.io/LUXERIOUS-FASHION-v2/)
 
 <img src="images/website/prewiew-readme.png" width="400" alt="Изображение макета страницы">
 
 ---
 
-### <span style="color:mediumblue">Технологии и способы вёрстки</span> :
+## $\color{mediumblue}\text{Технологии, инструменты и способы вёрстки }$:
 
-- Mobile first
-- БЭМ
-- Семантика
-- Адаптивная вёрстка
-- Flex
-- Grid
-- SASS
-- СSS Переменные
-- Шаблонизация некоторых блоков с помощью JS
+❗ Mobile first
+❗ БЭМ
+❗ Семантика
+❗ Адаптивная вёрстка
+❗ Flex
+❗ Grid
+❗ SASS
+❗ СSS Переменные
+❗ Шаблонизация некоторых блоков с помощью JS
 
 ---
 
-### <span style="color:mediumblue">Темы , изучаемые в процессе работы над макетом :</span>
+## $\color{mediumblue}\text{Темы , изучаемые в процессе работы над макетом :}$
 
 📌 Grid. Новые возможности CSS 3.
 
