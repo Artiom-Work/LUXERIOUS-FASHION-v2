@@ -3,12 +3,12 @@
   height: 74px;
   padding: 18px 16px;
   .container {
+    padding: 0;
     @include flexCenterSpaceBetwen;
     position: relative;
     max-width: 100%;
     @media (min-width: 1600px) {
       max-width: 1139px;
-      padding: 0;
     }
   }
   &__left-wrp {
@@ -107,8 +107,8 @@
     padding-right: 32px;
     &__right-wrp {
       position: relative;
-      left: -9px;
       top: 5px;
+      left: -9px;
     }
   }
 

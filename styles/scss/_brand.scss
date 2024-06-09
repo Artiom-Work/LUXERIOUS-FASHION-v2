@@ -44,7 +44,7 @@
 
 @media (min-width: 768px) {
   .brand {
-    min-height: 367px;
+    min-height: 368px;
   }
   .brand-wrap {
     display: flex;
@@ -71,10 +71,12 @@
     &:first-child {
       font-size: 44px;
       line-height: 33px;
+      letter-spacing: 0.5px;
     }
     & h1:last-child {
       font-size: 24px;
       margin: 11px 0 0 0;
+      letter-spacing: 0.3px;
     }
   }
 }

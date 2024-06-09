@@ -1,22 +1,30 @@
 .fetured {
-  padding: 0 8px 96px;
+  padding: 0 8px 92px;
   &--catalog {
     padding: 0 8px 64px;
   }
   &__title {
-    margin-bottom: 3px;
+    margin-bottom: 4px;
+    padding-left: 7px;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: -0.2px;
+    font-weight: 400;
     text-align: center;
     color: $color1;
   }
   &__text {
-    text-align: center;
+    letter-spacing: 0.1px;
+    padding-left: 16px;
+    position: relative;
+    left: 1px;
     color: $color6;
-    margin-bottom: 64px;
+    margin-bottom: 65px;
   }
   &__list {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 16px;
+    row-gap: 17px;
   }
   &__item {
     background: $color7;
@@ -26,7 +34,7 @@
     background: none;
     margin: 40px auto 0;
     border: 1px solid $color9;
-    padding: 15px 39px;
+    padding: 15px 39px 12px;
     color: $color10;
     font-weight: 400;
     font-size: 16px;
@@ -96,7 +104,7 @@
     padding: 23.28px 16.41px 19.95px;
   }
   &__name {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 13px;
     line-height: 16px;
     color: $color0;
@@ -117,14 +125,37 @@
 }
 @media (min-width: 640px) {
   .fetured {
-    padding: 0 16px 65px;
+    padding: 136px 0 65px;
+    &__title {
+      padding-left: 0;
+      letter-spacing: -0.3px;
+      position: relative;
+      left: -4px;
+      margin-bottom: 2px;
+    }
     &__text {
       margin-bottom: 73px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      padding-left: 0px;
+      left: -2px;
     }
     &__list {
       grid-template-columns: 1fr 1fr;
-      row-gap: 18px;
+      grid-template-rows: repeat(3, 583px);
+      row-gap: 15px;
       column-gap: 16px;
+    }
+    &__button {
+      margin: 30px auto 0;
+    }
+  }
+  .brand-item {
+    &__info-wrapper {
+      padding: 24.68px 16.41px 19.05px;
+    }
+    &__description {
+      margin: 14px 0 18px;
     }
   }
 }

@@ -1,9 +1,15 @@
 .services {
   background-color: $color11;
-  padding: 48px 14px 81px;
+  padding: 48px 14px 79px;
   &__list {
     display: grid;
-    gap: 46px;
+    gap: 43px;
+  }
+  &__item {
+    &:nth-child(2) .services__name {
+      margin-top: 18.35px;
+      margin-bottom: 14.66px;
+    }
   }
   &__unit {
     text-align: center;
@@ -30,6 +36,20 @@
     font-weight: 300;
     span {
       white-space: nowrap;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .services {
+    padding: 48px 14px 62px;
+    &__list {
+      gap: 48px;
+    }
+    &__name {
+      margin-top: 28px;
+      margin-bottom: 17px;
+      padding-right: 5px;
+      letter-spacing: -0.1px;
     }
   }
 }
