@@ -267,6 +267,10 @@ body {
     max-width: 1140px;
     width: 100%;
   }
+  .user-icon {
+    display: inline-block;
+    margin: 0px 32px 0 27px;
+  }
 }
 .new-arrivals {
   background: var(--color14);
@@ -744,7 +748,8 @@ body {
   .brand__promo {
     margin: 0 0 0 64px;
     padding: 14px 0 0 17px;
-    min-height: 92px;
+    min-height: 95px;
+    border-left: 12px solid var(--color3);
   }
   .brand__promo:first-child {
     font-size: 48px;
@@ -837,6 +842,13 @@ body {
   }
   .offers__title {
     margin-top: 2px;
+  }
+}
+@media (min-width: 1600px) {
+  .offers {
+    padding: 64px 0 97px;
+    grid-template-rows: 260px 180px;
+    gap: 30px;
   }
 }
 .fetured {
@@ -1014,13 +1026,26 @@ body {
     margin-bottom: 48px;
   }
   .fetured__list {
+    grid-template-rows: repeat(2, auto);
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+    row-gap: 30px;
   }
 }
 @media (min-width: 1600px) {
   .fetured {
     padding: 0 0 96px 0;
+  }
+  .fetured__title {
+    left: 0px;
+    margin-bottom: 6px;
+  }
+  .fetured__button {
+    margin: 50px auto 0;
+  }
+  .brand-item__description {
+    margin: 13px 0 17px;
   }
 }
 .services {
@@ -1084,6 +1109,14 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .services {
+    padding: 102px 14px 100px;
+  }
+  .services .container {
+    padding: 0 0;
   }
 }
 .subscribe {
@@ -1262,24 +1295,37 @@ body {
 }
 @media (min-width: 1200px) {
   .subscribe {
-    padding: 97px 20px 151px;
+    padding: 97px 20px 152px;
   }
   .subscribe .container {
-    width: 1140px;
+    max-width: 880px;
     margin: 0 auto;
+    padding: 0;
     display: flex;
     justify-content: space-between;
+  }
+  .subscribe__user-image {
+    left: -2px;
+  }
+  .subscribe__user-text {
+    padding-left: 14px;
   }
   .subscribe__right {
     margin-top: 60px;
     margin-right: 105px;
   }
+  .subscribe__title {
+    margin-bottom: 9px;
+    padding-left: 11px;
+  }
   .subscribe__text {
-    margin-bottom: 37px;
+    margin-bottom: 29px;
     margin-top: 0;
+    letter-spacing: 0.1px;
+    padding-left: 12px;
   }
   .subscribe__form {
-    max-width: 356px;
+    max-width: 362px;
     position: relative;
     left: 9px;
   }
@@ -1290,6 +1336,11 @@ body {
   }
   .subscribe__button {
     padding: 0 20px 0 21px;
+  }
+}
+@media (min-width: 1600px) {
+  .subscribe .container {
+    max-width: 1139px;
   }
 }
 .banner-page {

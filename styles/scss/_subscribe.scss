@@ -170,24 +170,37 @@
 }
 @media (min-width: 1200px) {
   .subscribe {
-    padding: 97px 20px 151px;
+    padding: 97px 20px 152px;
     .container {
-      width: 1140px;
+      max-width: 880px;
       margin: 0 auto;
+      padding: 0;
       display: flex;
       justify-content: space-between;
+    }
+    &__user-image {
+      left: -2px;
+    }
+    &__user-text {
+      padding-left: 14px;
     }
     &__right {
       margin-top: 60px;
       margin-right: 105px;
     }
+    &__title {
+      margin-bottom: 9px;
+      padding-left: 11px;
+    }
     &__text {
-      margin-bottom: 37px;
+      margin-bottom: 29px;
       margin-top: 0;
+      letter-spacing: 0.1px;
+      padding-left: 12px;
     }
 
     &__form {
-      max-width: 356px;
+      max-width: 362px;
       position: relative;
       left: 9px;
     }
@@ -198,6 +211,13 @@
     }
     &__button {
       padding: 0 20px 0 21px;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .subscribe {
+    .container {
+      max-width: 1139px;
     }
   }
 }

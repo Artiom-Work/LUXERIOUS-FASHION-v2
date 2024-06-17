@@ -169,13 +169,27 @@
       margin-bottom: 48px;
     }
     &__list {
+      grid-template-rows: repeat(2, auto);
       grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
+      column-gap: 30px;
+      row-gap: 30px;
     }
   }
 }
 @media (min-width: 1600px) {
   .fetured {
     padding: 0 0 96px 0;
+    &__title {
+      left: 0px;
+      margin-bottom: 6px;
+    }
+    &__button {
+      margin: 50px auto 0;
+    }
+  }
+  .brand-item {
+    &__description {
+      margin: 13px 0 17px;
+    }
   }
 }

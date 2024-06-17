@@ -81,3 +81,10 @@
     }
   }
 }
+@media (min-width: 1600px) {
+  .offers {
+    padding: 64px 0 97px;
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+  }
+}

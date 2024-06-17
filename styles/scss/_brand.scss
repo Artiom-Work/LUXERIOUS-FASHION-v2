@@ -84,7 +84,8 @@
   .brand__promo {
     margin: 0 0 0 64px;
     padding: 14px 0 0 17px;
-    min-height: 92px;
+    min-height: 95px;
+    border-left: 12px solid $color3;
     &:first-child {
       font-size: 48px;
       line-height: 33px;
