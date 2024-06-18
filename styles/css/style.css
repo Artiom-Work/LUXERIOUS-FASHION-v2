@@ -289,6 +289,14 @@ body {
   font-weight: normal;
   line-height: 29px;
 }
+.new-arrivals__nav {
+  padding-right: 5px;
+  max-width: 209px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .new-arrivals__nav-link, .new-arrivals__nav span {
   color: var(--color15);
   font-size: 14px;
@@ -301,10 +309,6 @@ body {
   font-weight: 700;
   line-height: 17px;
 }
-.new-arrivals__nav span {
-  margin: 0 5px;
-}
-
 @media (min-width: 768px) {
   .new-arrivals .container {
     flex-direction: row;
@@ -371,7 +375,6 @@ body {
 .collection {
   padding: 64px 25px;
   border: 1px solid var(--color19);
-  margin-bottom: 64px;
   background: var(--color2);
 }
 .collection__title {
@@ -392,7 +395,7 @@ body {
   width: 175px;
   height: 1px;
   background: var(--color19);
-  margin: 0 auto 49px;
+  margin: 0 auto 50px;
 }
 .collection__subtitle {
   display: block;
@@ -406,7 +409,7 @@ body {
 .collection__description {
   max-width: 326px;
   width: 100%;
-  margin: 0 auto 32px;
+  margin: 0 auto 36px;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
@@ -419,7 +422,7 @@ body {
   line-height: 31px;
   color: var(--color16);
   text-align: center;
-  margin: 0 0 32px;
+  margin: 0 0 30px;
 }
 
 .product-characteristics__filters-list {
@@ -428,6 +431,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 7px;
+  padding-right: 10px;
 }
 .product-characteristics__filters-list-item {
   display: flex;
@@ -445,7 +449,7 @@ body {
   display: flex;
   align-items: center;
   gap: 23px;
-  padding: 15px 58px 9px 24px;
+  padding: 10px 58px 8px 24px;
   margin: 0 auto 64.5px;
   background: none;
   border: 1px solid var(--color9);
@@ -454,8 +458,10 @@ body {
   color: var(--color10);
 }
 .product-characteristics__button-image {
-  width: 26px;
-  height: 24px;
+  position: relative;
+  top: 1px;
+  width: 28px;
+  height: 28px;
 }
 
 @media (min-width: 375px) {
@@ -857,6 +863,9 @@ body {
 .fetured--catalog {
   padding: 0 8px 64px;
 }
+.fetured--product {
+  padding: 0 8px 63px;
+}
 .fetured__title {
   margin-bottom: 4px;
   padding-left: 7px;
@@ -879,6 +888,9 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 17px;
+}
+.fetured__list_product-page {
+  row-gap: 0;
 }
 .fetured__item {
   background: var(--color7);
@@ -1981,6 +1993,9 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 41px;
+}
+.footer--product .container {
+  gap: 27px;
 }
 .footer__social-list {
   display: flex;

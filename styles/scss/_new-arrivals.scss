@@ -14,21 +14,28 @@
     font-weight: normal;
     line-height: 29px;
   }
-  &__nav-link {
-    color: $color15;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 17px;
-  }
-  &__nav-link:last-of-type {
-    color: $color3;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 17px;
-  }
-  &__nav span {
-    @extend .new-arrivals__nav-link;
-    margin: 0 5px;
+  &__nav {
+    padding-right: 5px;
+    max-width: 209px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-link {
+      color: $color15;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 17px;
+    }
+    &-link:last-of-type {
+      color: $color3;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+    }
+    span {
+      @extend .new-arrivals__nav-link;
+    }
   }
 }
 @media (min-width: 768px) {

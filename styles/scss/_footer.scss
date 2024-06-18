@@ -7,6 +7,11 @@
     align-items: center;
     gap: 41px;
   }
+  &--product {
+    .container {
+      gap: 27px;
+    }
+  }
   &__social-list {
     display: flex;
     gap: 7.29px;

@@ -3,6 +3,9 @@
   &--catalog {
     padding: 0 8px 64px;
   }
+  &--product {
+    padding: 0 8px 63px;
+  }
   &__title {
     margin-bottom: 4px;
     padding-left: 7px;
@@ -25,6 +28,9 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 17px;
+    &_product-page {
+      row-gap: 0;
+    }
   }
   &__item {
     background: $color7;
