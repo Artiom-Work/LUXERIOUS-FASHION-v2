@@ -132,6 +132,9 @@
 @media (min-width: 640px) {
   .fetured {
     padding: 136px 0 65px;
+    &--product {
+      padding: 129px 0 126px;
+    }
     &__title {
       padding-left: 0;
       letter-spacing: -0.3px;
@@ -151,6 +154,9 @@
       grid-template-rows: repeat(3, 583px);
       row-gap: 15px;
       column-gap: 16px;
+      &_product-page {
+        grid-template-rows: 583px;
+      }
     }
     &__button {
       margin: 30px auto 0;

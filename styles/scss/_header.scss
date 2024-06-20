@@ -44,6 +44,23 @@
   display: none;
   cursor: pointer;
 }
+.cart-icon-wrp {
+  span {
+    display: block;
+    position: absolute;
+    right: -10px;
+    top: -22px;
+    border-radius: 100%;
+    font-size: 12px;
+    line-height: 116%;
+    color: $color2;
+    text-align: center;
+    align-content: center;
+    width: 19px;
+    height: 19px;
+    background-color: $color3;
+  }
+}
 .bar-icon,
 .search-icon {
   cursor: pointer;

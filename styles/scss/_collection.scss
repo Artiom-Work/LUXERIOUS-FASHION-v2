@@ -38,7 +38,7 @@
     width: 100%;
     margin: 0 auto 36px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 143%;
     text-align: center;
     color: $color23;
   }
@@ -97,19 +97,48 @@
 }
 @media (min-width: 768px) {
   .collection {
-    margin-bottom: 128px;
+    &__subtitle {
+      margin: 0 0 38px;
+    }
     &__description {
       max-width: 555px;
+      text-indent: 2px;
+      letter-spacing: -0.1px;
+      line-height: 126%;
+      margin: 0 auto 39px;
+    }
+    &__price {
+      margin: 0 0 64px;
     }
     &__divider {
       &--grey {
         width: 641px;
+        margin: 0 auto 67px;
       }
     }
   }
   .product-characteristics {
-    &__filters-list {
-      gap: 25px;
+    &__filters {
+      &-list {
+        max-width: 373px;
+        width: 100%;
+        margin: 0 auto 52px;
+        gap: 22px;
+        justify-content: space-between;
+      }
+      &-list-item {
+        max-width: 100%;
+      }
+      &-name {
+        font-size: 14px;
+      }
+      &-icon {
+        width: 10.02px;
+        height: 5.05px;
+      }
+    }
+    &__button {
+      margin: 0 auto;
     }
   }
 }
