@@ -46,6 +46,9 @@
     min-height: 777px;
     &__image {
       margin: 11px auto;
+      position: relative;
+      left: 12px;
+      top: -16px;
     }
   }
 }

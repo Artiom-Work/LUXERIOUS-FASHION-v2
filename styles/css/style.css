@@ -287,6 +287,13 @@ body {
     display: inline-block;
     margin: 0px 32px 0 27px;
   }
+  .user-icon_product-page {
+    margin: 0px 38px 0 23px;
+  }
+  .bar-icon_product-page {
+    position: relative;
+    top: -2px;
+  }
 }
 .new-arrivals {
   background: var(--color14);
@@ -334,7 +341,7 @@ body {
     margin: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 1599px) {
+@media (min-width: 768px) {
   .new-arrivals .container {
     padding: 0;
   }
@@ -387,6 +394,9 @@ body {
   }
   .slider__image {
     margin: 11px auto;
+    position: relative;
+    left: 12px;
+    top: -16px;
   }
 }
 .collection {
@@ -527,9 +537,31 @@ body {
 }
 @media (min-width: 1600px) {
   .collection {
-    padding: 64px 0;
-    margin-top: -64px;
+    padding: 65px 0 63px;
+    margin-top: -66px;
     position: relative;
+  }
+  .collection__subtitle {
+    margin: 0 0 48px;
+  }
+  .collection__description {
+    line-height: 121%;
+    margin: 0 auto 32px;
+  }
+  .collection__price {
+    position: relative;
+    left: -12px;
+    margin: 0 0 63px;
+  }
+  .collection__divider--pink {
+    margin: 0 auto 13px;
+  }
+  .collection__divider--grey {
+    margin: 0 auto 68px;
+  }
+  .product-characteristics__filters-list {
+    max-width: 390px;
+    padding-right: 20px;
   }
 }
 .filters {
@@ -1097,6 +1129,9 @@ body {
   .fetured {
     padding: 0 0 96px 0;
   }
+  .fetured--product {
+    padding: 129px 0 99px;
+  }
   .fetured__title {
     left: 0px;
     margin-bottom: 6px;
@@ -1104,8 +1139,15 @@ body {
   .fetured__button {
     margin: 50px auto 0;
   }
+  .brand-item__info-wrapper {
+    padding: 22.68px 16.41px 19.05px;
+  }
+  .brand-item__name {
+    line-height: 123%;
+  }
   .brand-item__description {
     margin: 13px 0 17px;
+    line-height: 121%;
   }
 }
 .services {
@@ -1401,6 +1443,12 @@ body {
 @media (min-width: 1600px) {
   .subscribe .container {
     max-width: 1139px;
+  }
+  .subscribe__title--product-page {
+    margin: 0;
+  }
+  .subscribe__text--product-page {
+    margin-bottom: 38px;
   }
 }
 .banner-page {

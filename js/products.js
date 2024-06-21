@@ -21,11 +21,13 @@ function createTemplateProducts(products) {
 				</div>
 			</div>
 			<div class="brand-item__info-wrapper">
-				<h3 class="brand-item__name">
-				${name}
-				</h3>
+				<a class="brand-item__product-link" href="./product.html">
+					<h3 class="brand-item__name">
+						${name}
+					</h3>
+				</a>
 				<p class="brand-item__description">
-				${description}
+					${description}
 				</p>
 				<div class="brand-item__price">
 					<span class="brand-item__price-currency">${currency}</span>

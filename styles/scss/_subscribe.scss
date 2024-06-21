@@ -219,5 +219,15 @@
     .container {
       max-width: 1139px;
     }
+    &__title {
+      &--product-page {
+        margin: 0;
+      }
+    }
+    &__text {
+      &--product-page {
+        margin-bottom: 38px;
+      }
+    }
   }
 }

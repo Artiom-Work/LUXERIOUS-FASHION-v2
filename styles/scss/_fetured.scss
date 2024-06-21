@@ -191,6 +191,9 @@
 @media (min-width: 1600px) {
   .fetured {
     padding: 0 0 96px 0;
+    &--product {
+      padding: 129px 0 99px;
+    }
     &__title {
       left: 0px;
       margin-bottom: 6px;
@@ -200,8 +203,15 @@
     }
   }
   .brand-item {
+    &__info-wrapper {
+      padding: 22.68px 16.41px 19.05px;
+    }
+    &__name {
+      line-height: 123%;
+    }
     &__description {
       margin: 13px 0 17px;
+      line-height: 121%;
     }
   }
 }
