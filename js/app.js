@@ -1,6 +1,6 @@
 'use strict';
 
-let filterPopap = document.querySelector('.filters__popap');
+let filterPopap = document.querySelector('.filters__popup');
 let iconLabelFilter = document.querySelector('.filters__left-wrapper');
 let labelFilter = document.querySelector('.filters__left-label');
 let filterIcon = document.querySelector('.filters__left-icon');

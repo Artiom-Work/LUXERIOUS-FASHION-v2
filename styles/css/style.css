@@ -210,12 +210,14 @@ body {
 .menu__item_heading {
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0 0 24px 0;
+  margin: 0 0 24px;
 }
-.menu__item-title {
-  color: var(--color3);
+.menu__item_sublist-heading {
   text-transform: uppercase;
-  margin: 0 0 12px 0;
+  margin: 0 0 12px;
+}
+.menu__item_sublist-heading .menu__item-link {
+  color: var(--color3);
 }
 .menu__sublist {
   max-width: 178px;
@@ -565,7 +567,7 @@ body {
   }
 }
 .filters {
-  padding: 24px 0 32px;
+  padding: 24px 0 29px;
 }
 .filters .container {
   padding: 0 8px;
@@ -644,38 +646,43 @@ body {
   margin-bottom: 11px;
 }
 .filters__right {
+  max-width: 260px;
+  width: 100%;
+  position: relative;
+  top: -5px;
   display: flex;
+  gap: 15px;
   z-index: 1;
 }
 .filters__right-item {
   position: relative;
 }
+.filters__right-label {
+  display: flex;
+  flex-wrap: nowrap;
+}
 .filters__right-icon {
   position: relative;
-  bottom: 4px;
+  bottom: 2px;
   cursor: pointer;
 }
-.filters__right > li:not(:last-child) {
-  margin-right: 15px;
-}
-.filters__right > li span {
+.filters__right > li .filters__right-name {
   margin-right: 9px;
   color: var(--color5);
-  font-size: 12px;
+  font-size: 11.8px;
   line-height: 14px;
 }
 .filters__right-list {
   position: absolute;
   right: 0;
   top: 22px;
-  width: 79px;
-  height: 103px;
+  min-width: 79px;
+  min-height: 80px;
   background: var(--color2);
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   padding: 7px 9px;
 }
 .filters__right-list {
-  flex-direction: column;
   gap: 9px;
 }
 .filters__right-option {
@@ -693,8 +700,8 @@ body {
 }
 
 @media (min-width: 375px) {
-  .filters__right > li:not(:last-child) {
-    margin-right: 24px;
+  .filters__right {
+    gap: 24px;
   }
 }
 @media (min-width: 768px) {
@@ -2090,7 +2097,7 @@ body {
   align-items: center;
   gap: 41px;
 }
-.footer--product .container {
+.footer--product .container, .footer--catalog .container {
   gap: 27px;
 }
 .footer__social-list {
@@ -2112,7 +2119,6 @@ body {
 }
 .footer__copyright span {
   font-size: 16px;
-  letter-spacing: 0.5px;
 }
 
 @media (min-width: 768px) {

@@ -6,7 +6,7 @@ const productsList = document.querySelector('.fetured__list');
 
 let countOfCards = 2;
 
-if (window.matchMedia("(min-width: 1600px)").matches) {
+if (window.matchMedia("(min-width: 1000px)").matches) {
 	countOfCards = 3;
 };
 

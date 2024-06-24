@@ -89,15 +89,19 @@
   &__list {
     padding: 37px 20px 37px 43px;
   }
-  &__item_heading {
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 0 0 24px 0;
-  }
-  &__item-title {
-    color: $color3;
-    text-transform: uppercase;
-    margin: 0 0 12px 0;
+  &__item {
+    &_heading {
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0 0 24px;
+    }
+    &_sublist-heading {
+      text-transform: uppercase;
+      margin: 0 0 12px;
+      .menu__item-link {
+        color: $color3;
+      }
+    }
   }
   &__sublist {
     max-width: 178px;
