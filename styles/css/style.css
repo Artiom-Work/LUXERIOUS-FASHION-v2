@@ -709,7 +709,7 @@ body {
     padding: 24px 0 40px;
   }
   .filters .container {
-    padding: 0 16px;
+    padding: 0;
   }
   .filters__left-label {
     display: inline-block;
@@ -721,17 +721,22 @@ body {
   .filters__left-icon {
     position: relative;
     bottom: 0.5px;
-    margin-left: 11px;
+    margin-left: 9px;
     width: 15px;
     height: 10px;
   }
+  .filters__right {
+    max-width: 296.02px;
+    gap: 27px;
+    top: 0;
+  }
   .filters__right-icon {
-    bottom: 2px;
+    bottom: 0px;
   }
   .filters__right > li:not(:last-child) {
-    margin-right: 24px;
+    margin-right: 0px;
   }
-  .filters__right > li span {
+  .filters__right > li .filters__right-name {
     margin-right: 10px;
     font-size: 14px;
     line-height: 17px;
@@ -1080,6 +1085,9 @@ body {
   .fetured--product {
     padding: 129px 0 126px;
   }
+  .fetured--catalog {
+    padding: 0 0 62px;
+  }
   .fetured__title {
     padding-left: 0;
     letter-spacing: -0.3px;
@@ -1097,12 +1105,16 @@ body {
   .fetured__list {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 583px);
-    row-gap: 15px;
+    row-gap: 14px;
     -moz-column-gap: 16px;
          column-gap: 16px;
   }
   .fetured__list_product-page {
     grid-template-rows: 583px;
+  }
+  .fetured__pagination {
+    position: relative;
+    left: 10px;
   }
   .fetured__button {
     margin: 30px auto 0;

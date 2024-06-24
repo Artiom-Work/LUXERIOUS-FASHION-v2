@@ -135,6 +135,9 @@
     &--product {
       padding: 129px 0 126px;
     }
+    &--catalog {
+      padding: 0 0 62px;
+    }
     &__title {
       padding-left: 0;
       letter-spacing: -0.3px;
@@ -152,11 +155,15 @@
     &__list {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: repeat(3, 583px);
-      row-gap: 15px;
+      row-gap: 14px;
       column-gap: 16px;
       &_product-page {
         grid-template-rows: 583px;
       }
+    }
+    &__pagination {
+      position: relative;
+      left: 10px;
     }
     &__button {
       margin: 30px auto 0;

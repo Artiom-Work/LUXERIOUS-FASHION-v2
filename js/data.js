@@ -74,15 +74,6 @@ export const catalogProductsData = `[
 	"price": 52
 },
 {
-	"image": "images/fetured/blue-sweater.jpg",
-	"altImage": "Синяя кофта",
-	"name": "ELLERY X&nbsp;M&rsquo;O CAPSULE",
-	"description": "Known for her sculptural takes on&nbsp;traditional tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.",
-
-	"currency": "$",
-	"price": 52
-},
-{
 	"image": "images/fetured/yellow-pants.jpg",
 	"altImage": "Жёлтые штаны",
 	"name": "ELLERY X&nbsp;M&rsquo;O CAPSULE",
@@ -130,6 +121,15 @@ export const catalogProductsData = `[
 {
 	"image": "images/fetured/green-summer-shirt.jpg",
 	"altImage": "Зелёная летняя рубашка для мужчин",
+	"name": "ELLERY X&nbsp;M&rsquo;O CAPSULE",
+	"description": "Known for her sculptural takes on&nbsp;traditional tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.",
+
+	"currency": "$",
+	"price": 52
+},
+{
+	"image": "images/fetured/blue-sweater.jpg",
+	"altImage": "Синяя кофта",
 	"name": "ELLERY X&nbsp;M&rsquo;O CAPSULE",
 	"description": "Known for her sculptural takes on&nbsp;traditional tailoring, Australian arbiter of&nbsp;cool Kym Ellery teams up&nbsp;with Moda Operandi.",
 

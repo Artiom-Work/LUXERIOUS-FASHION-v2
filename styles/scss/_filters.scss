@@ -144,7 +144,7 @@
   .filters {
     padding: 24px 0 40px;
     .container {
-      padding: 0 16px;
+      padding: 0;
     }
     &__left {
       &-label {
@@ -157,20 +157,23 @@
       &-icon {
         position: relative;
         bottom: 0.5px;
-        margin-left: 11px;
+        margin-left: 9px;
         width: 15px;
         height: 10px;
       }
     }
     &__right {
+      max-width: 296.02px;
+      gap: 27px;
+      top: 0;
       &-icon {
-        bottom: 2px;
+        bottom: 0px;
       }
       > li:not(:last-child) {
-        margin-right: 24px;
+        margin-right: 0px;
       }
       > li {
-        span {
+        .filters__right-name {
           margin-right: 10px;
           font-size: 14px;
           line-height: 17px;

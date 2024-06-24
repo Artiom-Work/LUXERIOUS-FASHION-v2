@@ -4,10 +4,13 @@ const productCards = JSON.parse(catalogProductsData);
 
 const productsList = document.querySelector('.fetured__list');
 
-function createTemplateProducts(products) {
+function createTemplateProducts(productCards) {
 	productsList.innerHTML = '';
-	products.forEach(({ image, altImage, name, description, currency, price }) => {
-		const productCard = `
+	let indexCounter = 0;
+	let stopLoop = false;
+	productCards.forEach(({ image, altImage, name, description, currency, price }) => {
+		if (!stopLoop) {
+			const productCard = `
 		<li class="fetured__item">
 		<article class="brand-item">
 			<div class="brand-item__image-wrapper">
@@ -35,7 +38,13 @@ function createTemplateProducts(products) {
 		</article>
 	</li>
 			`
-		productsList.insertAdjacentHTML('beforeend', productCard);
+			productsList.insertAdjacentHTML('beforeend', productCard);
+			indexCounter++;
+
+			if (window.matchMedia("(max-width: 1000px)").matches && indexCounter === 8) {
+				stopLoop = true;
+			};
+		}
 	});
 }
 window.addEventListener('load', createTemplateProducts(productCards));
