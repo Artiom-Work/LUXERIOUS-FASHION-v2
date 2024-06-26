@@ -40,12 +40,15 @@ body {
 }
 .form {
   &__input {
-    line-height: 123%;
-    border: 1px solid $color26;
-    margin-bottom: 22px;
-    padding: 12px 5px 14.2px 17.24px;
+    max-width: 360px;
     width: 100%;
+    min-height: 44px;
+    border: 1px solid $color26;
     font-size: 13px;
+    line-height: 123%;
+
+    padding: 12px 17px 15px;
+    margin-bottom: 21px;
     &__input::placeholder {
       font-family: $Lato;
       color: $color1;

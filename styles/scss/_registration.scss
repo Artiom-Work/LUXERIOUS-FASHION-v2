@@ -57,16 +57,8 @@
 }
 .form {
   &__input {
-    max-width: 360px;
-    width: 100%;
-    min-height: 44px;
-    padding: 12px 17px 15px;
-    border: 1px solid $color26;
-    font-size: 13px;
-    line-height: 123%;
     &::placeholder {
-      color: $color27;
-      font-family: $Lato;
+      // color: $color27;
     }
     @media (min-width: 768px) {
       min-height: 45px;

@@ -38,7 +38,7 @@
     font-style: italic;
     color: $color11;
     &_cart-page {
-      margin-top: 24px;
+      margin-top: 29px;
       font-size: 19px;
     }
     &_registration-page {
@@ -95,11 +95,9 @@
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     float: left;
-    &_cart-page {
-      width: 239px;
-    }
+    &_cart-page,
     &_registration-page {
-      width: 244px;
+      width: 246px;
     }
   }
   &__input::-webkit-input-placeholder {

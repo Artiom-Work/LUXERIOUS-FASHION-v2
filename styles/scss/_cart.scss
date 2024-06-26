@@ -1,6 +1,6 @@
 .cart {
+  padding: 9px 0 92px;
   .container {
-    padding: 9px 0;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -21,8 +21,7 @@
   &__placing-order {
     @include flexCenter;
     flex-wrap: wrap;
-    gap: 48px;
-    padding: 0 0 97px;
+    gap: 52px;
     @media (min-width: 768px) {
       gap: 15px;
       padding: 0;
@@ -37,7 +36,7 @@
   }
 }
 .product-box {
-  padding: 39px 0 0;
+  padding: 30px 0 0;
   @media (min-width: 768px) {
     padding: 0;
   }
@@ -101,7 +100,7 @@
     }
   }
   &__btn {
-    max-width: 175px;
+    max-width: 180px;
     width: 100%;
     height: 33px;
     @include flexCenter;
@@ -194,7 +193,7 @@
     }
     &-txt {
       color: $color24;
-      margin-bottom: 4px;
+      margin-bottom: 3.9px;
       @media (min-width: 768px) {
         margin-bottom: 7px;
         letter-spacing: -0.6px;
@@ -225,6 +224,8 @@
   }
   &__quantity {
     &-input {
+      position: relative;
+      top: -3px;
       width: 23.71px;
       line-height: 13.52px;
       font-weight: 400;
@@ -232,7 +233,7 @@
       color: $color25;
       border: 1px solid $color19;
       text-align: center;
-      margin-left: 30px;
+      margin-left: 27px;
       @media (min-width: 768px) {
         width: 44px;
         font-size: 18px;
@@ -247,9 +248,9 @@
 .total-cost {
   max-width: 360px;
   width: 100%;
-  min-height: 214px;
+  min-height: 213.5px;
   background-color: $color28;
-  padding: 40px 32px 35px 35px;
+  padding: 36px 32px 35px 35px;
   text-align: end;
   &__text {
     font-family: $Lato;
@@ -260,10 +261,10 @@
       font-weight: 400;
       font-size: 16px;
       color: $color1;
-      margin: 12px 0 21px 0;
+      margin: 12px 0 21px;
     }
     &-price {
-      padding-left: 23px;
+      padding-left: 24px;
       &_color {
         padding-right: 3px;
         font-weight: 700;
@@ -274,7 +275,7 @@
   &__divider {
     height: 1px;
     background-color: $color30;
-    margin: 0 6px 17px 9px;
+    margin: 0 6px 16px 9px;
   }
   &__button {
     @include flexCenter;
@@ -285,7 +286,7 @@
     color: $color2;
     font-size: 16px;
     line-height: 119%;
-    margin: 0 9px;
+    margin: 0 10px;
   }
   @media (min-width: 768px) {
     margin: 19px 0 0;
