@@ -201,12 +201,23 @@
     &--product {
       padding: 129px 0 99px;
     }
+    &__list {
+      &_catalog_page {
+        row-gap: 35px;
+      }
+    }
     &__title {
       left: 0px;
       margin-bottom: 6px;
     }
     &__button {
       margin: 50px auto 0;
+    }
+    &__pagination {
+      &_catalog_page {
+        margin: 47px auto 0;
+        left: -15px;
+      }
     }
   }
   .brand-item {

@@ -182,6 +182,13 @@
     }
   }
 }
+@media (min-width: 1000px) {
+  .filters {
+    .container {
+      padding: 0 32px;
+    }
+  }
+}
 
 @media (min-width: 1600px) {
   .filters {
@@ -192,8 +199,8 @@
     }
     &__right {
       margin-left: 320px;
-      > li:not(:last-child) {
-        margin-right: 28px;
+      &-icon {
+        bottom: -1px;
       }
     }
   }

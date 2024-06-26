@@ -47,6 +47,12 @@ body {
     max-width: 736px;
   }
 }
+@media (min-width: 1000px) {
+  .container {
+    max-width: 100%;
+    padding: 0 32px;
+  }
+}
 @media (min-width: 1600px) {
   .container {
     max-width: 1140px;
@@ -292,7 +298,10 @@ body {
   .user-icon_product-page {
     margin: 0px 38px 0 23px;
   }
-  .bar-icon_product-page {
+  .user-icon_catalog-page {
+    margin: 0px 39px 0 21px;
+  }
+  .bar-icon_product-page, .bar-icon_catalog-page {
     position: relative;
     top: -2px;
   }
@@ -343,7 +352,7 @@ body {
     margin: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1600px) {
   .new-arrivals .container {
     padding: 0;
   }
@@ -742,6 +751,11 @@ body {
     line-height: 17px;
   }
 }
+@media (min-width: 1000px) {
+  .filters .container {
+    padding: 0 32px;
+  }
+}
 @media (min-width: 1600px) {
   .filters {
     padding: 51px 0 64px;
@@ -753,8 +767,8 @@ body {
   .filters__right {
     margin-left: 320px;
   }
-  .filters__right > li:not(:last-child) {
-    margin-right: 28px;
+  .filters__right-icon {
+    bottom: -1px;
   }
 }
 .brand {
@@ -1151,12 +1165,19 @@ body {
   .fetured--product {
     padding: 129px 0 99px;
   }
+  .fetured__list_catalog_page {
+    row-gap: 35px;
+  }
   .fetured__title {
     left: 0px;
     margin-bottom: 6px;
   }
   .fetured__button {
     margin: 50px auto 0;
+  }
+  .fetured__pagination_catalog_page {
+    margin: 47px auto 0;
+    left: -15px;
   }
   .brand-item__info-wrapper {
     padding: 22.68px 16.41px 19.05px;
@@ -1463,11 +1484,11 @@ body {
   .subscribe .container {
     max-width: 1139px;
   }
-  .subscribe__title--product-page {
+  .subscribe__title--product-page, .subscribe__title--catalog-page {
     margin: 0;
   }
-  .subscribe__text--product-page {
-    margin-bottom: 38px;
+  .subscribe__text--product-page, .subscribe__text--catalog-page {
+    margin-bottom: 39px;
   }
 }
 .banner-page {

@@ -220,13 +220,15 @@
       max-width: 1139px;
     }
     &__title {
-      &--product-page {
+      &--product-page,
+      &--catalog-page {
         margin: 0;
       }
     }
     &__text {
-      &--product-page {
-        margin-bottom: 38px;
+      &--product-page,
+      &--catalog-page {
+        margin-bottom: 39px;
       }
     }
   }
