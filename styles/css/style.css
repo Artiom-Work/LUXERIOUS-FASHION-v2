@@ -305,10 +305,10 @@ body {
   .user-icon_product-page {
     margin: 0px 38px 0 23px;
   }
-  .user-icon_catalog-page {
+  .user-icon_catalog-page, .user-icon_cart-page {
     margin: 0px 39px 0 21px;
   }
-  .bar-icon_product-page, .bar-icon_catalog-page {
+  .bar-icon_product-page, .bar-icon_catalog-page, .bar-icon_cart-page {
     position: relative;
     top: -2px;
   }
@@ -1341,7 +1341,7 @@ body {
   margin-bottom: 3px;
   padding-right: 3px;
 }
-.subscribe__title_cart-page {
+.subscribe__title--cart-page {
   margin-bottom: 4px;
 }
 @media (min-width: 768px) {
@@ -1488,10 +1488,10 @@ body {
   .subscribe .container {
     max-width: 1139px;
   }
-  .subscribe__title--product-page, .subscribe__title--catalog-page {
+  .subscribe__title--product-page, .subscribe__title--catalog-page, .subscribe__title--cart-page {
     margin: 0;
   }
-  .subscribe__text--product-page, .subscribe__text--catalog-page {
+  .subscribe__text--product-page, .subscribe__text--catalog-page, .subscribe__text--cart-page {
     margin-bottom: 39px;
   }
 }
@@ -1510,7 +1510,7 @@ body {
 }
 @media (min-width: 768px) {
   .banner-page_cart .container {
-    padding: 0;
+    padding: 0 10px;
   }
 }
 .banner-page__title {
@@ -1536,9 +1536,16 @@ body {
   }
   .banner-page__title_registration, .banner-page__title_cart {
     padding: 0;
+    left: -10px;
   }
   .banner-page__title_cart {
     text-align: start;
+  }
+}
+@media (min-width: 1000px) {
+  .banner-page__title_cart {
+    padding: 0 32px;
+    left: 0;
   }
 }
 @media (min-width: 1600px) {
@@ -1568,7 +1575,7 @@ body {
 }
 @media (min-width: 1600px) {
   .cart .container {
-    padding: 96px 10px 128px;
+    padding: 0 10px;
     max-width: 1160px;
     flex-direction: row;
     justify-content: space-between;
@@ -1600,6 +1607,11 @@ body {
 @media (min-width: 768px) {
   .cart {
     padding: 0 0 128px;
+  }
+}
+@media (min-width: 1600px) {
+  .cart {
+    padding: 96px 0 128px;
   }
 }
 
@@ -1803,6 +1815,7 @@ body {
 @media (min-width: 1600px) {
   .product__description {
     min-width: 390px;
+    padding: 23px 0 0 31px;
   }
 }
 .product__description-txt {
@@ -1811,7 +1824,7 @@ body {
 }
 @media (min-width: 768px) {
   .product__description-txt {
-    margin-bottom: 7px;
+    margin-bottom: 6.5px;
     letter-spacing: -0.6px;
   }
 }
@@ -1837,6 +1850,13 @@ body {
     font-size: 24px;
     line-height: 112%;
     margin: 0 0 44px;
+  }
+}
+@media (min-width: 1600px) {
+  .product__name {
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    margin: 0 0 42px;
   }
 }
 .product__quantity-input {

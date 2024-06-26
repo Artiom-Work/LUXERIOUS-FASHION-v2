@@ -179,13 +179,15 @@
     &_product-page {
       margin: 0px 38px 0 23px;
     }
-    &_catalog-page {
+    &_catalog-page,
+    &_cart-page {
       margin: 0px 39px 0 21px;
     }
   }
   .bar-icon {
     &_product-page,
-    &_catalog-page {
+    &_catalog-page,
+    &_cart-page {
       position: relative;
       top: -2px;
     }

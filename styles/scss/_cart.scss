@@ -11,7 +11,7 @@
       padding: 0;
     }
     @media (min-width: 1600px) {
-      padding: 96px 10px 128px;
+      padding: 0 10px;
       max-width: 1160px;
       flex-direction: row;
       justify-content: space-between;
@@ -36,6 +36,9 @@
   }
   @media (min-width: 768px) {
     padding: 0 0 128px;
+  }
+  @media (min-width: 1600px) {
+    padding: 96px 0 128px;
   }
 }
 .product-box {
@@ -197,12 +200,13 @@
     }
     @media (min-width: 1600px) {
       min-width: 390px;
+      padding: 23px 0 0 31px;
     }
     &-txt {
       color: $color24;
       margin-bottom: 3.9px;
       @media (min-width: 768px) {
-        margin-bottom: 7px;
+        margin-bottom: 6.5px;
         letter-spacing: -0.6px;
       }
     }
@@ -227,6 +231,11 @@
       font-size: 24px;
       line-height: 112%;
       margin: 0 0 44px;
+    }
+    @media (min-width: 1600px) {
+      line-height: 120%;
+      letter-spacing: 0.1px;
+      margin: 0 0 42px;
     }
   }
   &__quantity {
