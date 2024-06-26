@@ -8,7 +8,7 @@
     gap: 48px;
     @media (min-width: 768px) {
       gap: 64px;
-      padding: 0 0 128px;
+      padding: 0;
     }
     @media (min-width: 1600px) {
       padding: 96px 10px 128px;
@@ -33,6 +33,9 @@
       gap: 57px;
       padding: 17px 0 0;
     }
+  }
+  @media (min-width: 768px) {
+    padding: 0 0 128px;
   }
 }
 .product-box {
@@ -62,7 +65,7 @@
     width: 100%;
     min-height: 188px;
     @media (min-width: 768px) {
-      max-width: 734px;
+      max-width: 736px;
       min-height: 306px;
     }
   }
@@ -110,15 +113,19 @@
     line-height: 119%;
     cursor: pointer;
     transition-duration: 0.5s;
-    &_link {
-      color: $color1;
-    }
+
     @media (min-width: 768px) {
       text-transform: uppercase;
       max-width: 235px;
       min-height: 50px;
       font-size: 14px;
       color: $color0;
+    }
+    &_link {
+      color: $color1;
+      @media (min-width: 768px) {
+        max-width: 225px;
+      }
     }
   }
 }

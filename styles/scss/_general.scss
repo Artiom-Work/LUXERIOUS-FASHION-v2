@@ -46,7 +46,6 @@ body {
     border: 1px solid $color26;
     font-size: 13px;
     line-height: 123%;
-
     padding: 12px 17px 15px;
     margin-bottom: 21px;
     &__input::placeholder {
@@ -55,6 +54,9 @@ body {
     }
     &_country::placeholder {
       color: $color27;
+    }
+    @media (min-width: 768px) {
+      margin-bottom: 20px;
     }
   }
   & div:last-of-type &__input {

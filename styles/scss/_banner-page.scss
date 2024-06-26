@@ -8,6 +8,13 @@
       padding: 0;
     }
   }
+  &_cart {
+    @media (min-width: 768px) {
+      .container {
+        padding: 0;
+      }
+    }
+  }
   &__title {
     position: relative;
     left: 8px;
@@ -26,8 +33,12 @@
       padding: 0 16px;
       left: 0;
       top: 0;
-      &_registration {
+      &_registration,
+      &_cart {
         padding: 0;
+      }
+      &_cart {
+        text-align: start;
       }
     }
   }
