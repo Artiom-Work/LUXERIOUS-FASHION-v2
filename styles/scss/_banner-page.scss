@@ -26,6 +26,10 @@
     line-height: 29px;
     color: $color3;
     text-align: center;
+    &_registration {
+      left: 0;
+      top: 1px;
+    }
   }
   @media (min-width: 768px) {
     justify-content: flex-start;

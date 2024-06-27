@@ -1525,6 +1525,10 @@ body {
   color: var(--color3);
   text-align: center;
 }
+.banner-page__title_registration {
+  left: 0;
+  top: 1px;
+}
 @media (min-width: 768px) {
   .banner-page {
     justify-content: flex-start;
@@ -1954,7 +1958,7 @@ body {
 }
 .registration .container {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 8px;
 }
 @media (min-width: 768px) {
   .registration .container {
@@ -1975,7 +1979,7 @@ body {
   }
 }
 .registration__forms {
-  padding: 0 0 42px;
+  padding: 0 0 41px;
 }
 @media (min-width: 768px) {
   .registration__forms {
@@ -2094,7 +2098,7 @@ body {
   }
 }
 .loyalty-periks__title {
-  margin-bottom: 33px;
+  margin-bottom: 34px;
 }
 @media (min-width: 1600px) {
   .loyalty-periks__title {
