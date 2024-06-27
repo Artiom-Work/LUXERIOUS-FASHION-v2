@@ -1542,8 +1542,11 @@ body {
     padding: 0;
     left: -10px;
   }
-  .banner-page__title_cart {
+  .banner-page__title_cart, .banner-page__title_registration {
     text-align: start;
+  }
+  .banner-page__title_registration {
+    left: -17px;
   }
 }
 @media (min-width: 1000px) {
@@ -1948,7 +1951,7 @@ body {
 }
 @media (min-width: 768px) {
   .registration {
-    padding: 40px 0 53.19px;
+    padding: 40px 0 54px;
   }
 }
 @media (min-width: 1600px) {
@@ -1968,6 +1971,14 @@ body {
     gap: 22px;
     min-width: 360px;
     width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .registration .container {
+    max-width: 100%;
+    padding: 0 32px;
+    justify-content: space-around;
   }
 }
 @media (min-width: 1600px) {
@@ -2015,6 +2026,13 @@ body {
   padding-left: 19px;
 }
 
+.form__input::-moz-placeholder {
+  color: var(--color27);
+}
+
+.form__input::placeholder {
+  color: var(--color27);
+}
 @media (min-width: 768px) {
   .form__input {
     min-height: 45px;
@@ -2109,6 +2127,11 @@ body {
   margin-bottom: 23px;
   line-height: 118%;
 }
+@media (min-width: 768px) {
+  .loyalty-periks__description {
+    margin-bottom: 22px;
+  }
+}
 .loyalty-periks__list {
   max-width: 358px;
   width: 100%;
@@ -2185,6 +2208,11 @@ body {
 }
 .footer__copyright span {
   font-size: 16px;
+}
+@media (min-width: 768px) {
+  .footer__copyright span {
+    letter-spacing: 0.1px;
+  }
 }
 
 @media (min-width: 768px) {

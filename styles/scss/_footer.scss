@@ -30,6 +30,9 @@
     color: $color12;
     span {
       font-size: 16px;
+      @media (min-width: 768px) {
+        letter-spacing: 0.1px;
+      }
     }
   }
 }
