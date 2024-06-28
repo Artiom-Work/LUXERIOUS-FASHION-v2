@@ -50,7 +50,8 @@
     flex-direction: column;
     align-items: center;
     margin-top: 71px;
-    &_cart-page {
+    &--cart-page,
+    &--registration-page {
       margin-top: 72px;
     }
   }
@@ -76,7 +77,7 @@
   &__text {
     font-size: 14px;
     margin-bottom: 24px;
-    &_cart-page {
+    &--cart-page {
       margin-bottom: 23px;
     }
   }
@@ -220,14 +221,16 @@
     &__title {
       &--product-page,
       &--catalog-page,
-      &--cart-page {
+      &--cart-page,
+      &--registration-page {
         margin: 0;
       }
     }
     &__text {
       &--product-page,
       &--catalog-page,
-      &--cart-page {
+      &--cart-page,
+      &--registration-page {
         margin-bottom: 39px;
       }
     }

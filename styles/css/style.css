@@ -302,13 +302,13 @@ body {
     display: inline-block;
     margin: 0px 30px;
   }
-  .user-icon_product-page {
+  .user-icon_product-page, .user-icon_registration-page {
     margin: 0px 38px 0 23px;
   }
   .user-icon_catalog-page, .user-icon_cart-page {
     margin: 0px 39px 0 21px;
   }
-  .bar-icon_product-page, .bar-icon_catalog-page, .bar-icon_cart-page {
+  .bar-icon_product-page, .bar-icon_catalog-page, .bar-icon_cart-page, .bar-icon_registration-page {
     position: relative;
     top: -2px;
   }
@@ -1326,7 +1326,7 @@ body {
   align-items: center;
   margin-top: 71px;
 }
-.subscribe__right_cart-page {
+.subscribe__right--cart-page, .subscribe__right--registration-page {
   margin-top: 72px;
 }
 .subscribe__title, .subscribe__text {
@@ -1353,7 +1353,7 @@ body {
   font-size: 14px;
   margin-bottom: 24px;
 }
-.subscribe__text_cart-page {
+.subscribe__text--cart-page {
   margin-bottom: 23px;
 }
 .subscribe__form {
@@ -1488,10 +1488,10 @@ body {
   .subscribe .container {
     max-width: 1139px;
   }
-  .subscribe__title--product-page, .subscribe__title--catalog-page, .subscribe__title--cart-page {
+  .subscribe__title--product-page, .subscribe__title--catalog-page, .subscribe__title--cart-page, .subscribe__title--registration-page {
     margin: 0;
   }
-  .subscribe__text--product-page, .subscribe__text--catalog-page, .subscribe__text--cart-page {
+  .subscribe__text--product-page, .subscribe__text--catalog-page, .subscribe__text--cart-page, .subscribe__text--registration-page {
     margin-bottom: 39px;
   }
 }
@@ -1561,6 +1561,7 @@ body {
   }
   .banner-page__title_registration {
     font-size: 23.8px;
+    left: 0;
   }
 }
 
@@ -2061,10 +2062,20 @@ body {
   max-width: 208px;
   min-height: 17px;
 }
+@media (min-width: 1600px) {
+  .name-form__radio-inputs {
+    max-width: 132px;
+  }
+}
 .name-form__radio-input {
   transform: scale(1.3);
   opacity: 0.9;
   cursor: pointer;
+}
+@media (min-width: 1600px) {
+  .name-form__radio-input-wrapper_hidden {
+    display: none;
+  }
 }
 .name-form__radio-input-label {
   display: inline-block;

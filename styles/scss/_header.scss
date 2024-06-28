@@ -176,7 +176,8 @@
   .user-icon {
     display: inline-block;
     margin: 0px 30px;
-    &_product-page {
+    &_product-page,
+    &_registration-page {
       margin: 0px 38px 0 23px;
     }
     &_catalog-page,
@@ -187,7 +188,8 @@
   .bar-icon {
     &_product-page,
     &_catalog-page,
-    &_cart-page {
+    &_cart-page,
+    &_registration-page {
       position: relative;
       top: -2px;
     }
