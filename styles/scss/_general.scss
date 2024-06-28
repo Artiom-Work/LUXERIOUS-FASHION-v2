@@ -23,7 +23,52 @@ body {
     max-width: 1140px;
   }
 }
-
+// ====search-icon====
+.search {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  height: 29px;
+  &__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 29px;
+    width: 0;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: 0.6s linear;
+    z-index: 2;
+    cursor: pointer;
+    &:focus {
+      cursor: auto;
+      width: 200px;
+      z-index: 1;
+      border-bottom: 2px solid #f9f0da;
+      background: $color2;
+      @media (min-width: 768px) {
+        width: 300px;
+      }
+    }
+  }
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../../images/header/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    height: 26.79px;
+    width: 26px;
+    cursor: pointer;
+  }
+}
+// ====END-search-icon====
 // ====form====
 .form-block {
   max-width: 360px;
