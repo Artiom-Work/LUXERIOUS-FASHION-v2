@@ -1,4 +1,24 @@
 @media (hover: hover) {
+  .bar-icon:hover,
+  .user-icon:hover,
+  .cart-icon:hover,
+  .search:hover .search__icon,
+  .logo:hover .logo__image,
+  .product__btn-delete:hover .product__btn-delete-image,
+  .fetured__pagination-switcher-link:hover .fetured__pagination-switcher,
+  .filters__left-icon:hover,
+  .filters__right-icon:hover,
+  .product-characteristics__filters-icon:hover {
+    transform: scale(1.2);
+  }
+  .brand-item__product-link:hover .brand-item__name,
+  .new-arrivals__nav-link:hover,
+  .filters__left-label:hover,
+  .filters__right-name:hover,
+  .product-characteristics__filters-name:hover {
+    opacity: 0.5;
+  }
+
   .slider {
     &__switcher {
       &-left:hover,
@@ -20,13 +40,95 @@
     background: $color3;
     color: $color2;
   }
+
   .fetured__pagination-page:hover {
     color: $color16;
   }
+  .subscribe__button:hover,
+  .total-cost__button:hover,
+  .product-characteristics__button:hover {
+    color: $color3;
+    background: $color13;
+    border: 1px solid $color3;
+  }
+  .registration__button:hover {
+    outline: 1px solid $color3;
+    color: $color3;
+    background: $color13;
+    font-weight: 700;
+  }
+  .registration__button:active {
+    background: $color3;
+    color: $color2;
+    transform: scale(0.9);
+  }
+
   .footer {
     &__social-link:hover {
       color: $color2;
       background: $color3;
+    }
+  }
+  .product-box__btn:hover,
+  .form__button:hover {
+    color: $color2;
+    background: $color3;
+  }
+}
+.bar-icon:active,
+.user-icon:active,
+.cart-icon:active,
+.search:active .search__icon,
+.logo:active .logo__image,
+.product__btn-delete:active .product__btn-delete-image {
+  transform: scale(0.9);
+}
+.brand-item__product-link:active .brand-item__name,
+.new-arrivals__nav-link:active {
+  opacity: 0.3;
+}
+.new-arrivals__nav-link:active {
+  transform: scale(0.9);
+  opacity: 1;
+}
+.fetured__button:active {
+  transform: scale(0.9);
+  background: $color3;
+  color: $color2;
+}
+.subscribe__button:active {
+  transform: scale(1.1);
+  opacity: 1;
+}
+.footer {
+  &__social-link:active {
+    transform: scale(0.8);
+    background: $color3;
+  }
+}
+.product-box__btn:active,
+.form__button:active,
+.total-cost__button:active,
+.fetured__pagination-switcher-link:active .fetured__pagination-switcher,
+.filters__left-icon:active,
+.filters__right-icon:active,
+.product-characteristics__filters-icon:active,
+.product-characteristics__button:active {
+  transform: scale(0.9);
+}
+.filters__left-label:active,
+.filters__right-name:active,
+.product-characteristics__filters-name:active {
+  color: $color3 !important;
+  opacity: 1;
+}
+.slider {
+  &__switcher {
+    &-left:active,
+    &-right:active {
+      .slider__switcher-svg {
+        transform: scale(1.2);
+      }
     }
   }
 }

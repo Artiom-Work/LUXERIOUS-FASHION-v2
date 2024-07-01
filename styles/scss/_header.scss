@@ -22,17 +22,33 @@
   }
   &__menu-dark {
     position: absolute;
+    visibility: visible;
+    display: block;
     left: 0;
     top: 74px;
     width: 100%;
     height: 106.5vh;
-    background: rgb(0, 0, 0, 0);
+    background: rgb(0, 0, 0, 1);
+    opacity: 0.5;
     transition: all 0.8s ease 0s;
     z-index: 0;
   }
+  &__menu {
+    visibility: visible;
+    display: block;
+    position: absolute;
+    top: 57px;
+    right: 0px;
+    transform: translateY(0px);
+    transition: all 0.8s ease 0s;
+  }
   &__menu-dark.hidden,
   &__menu.hidden {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+  &__menu.hidden {
+    transform: translateY(-700px);
   }
 }
 .logo {
@@ -70,9 +86,6 @@
   margin: 0 0 0 41px;
 }
 .menu {
-  position: absolute;
-  top: 57px;
-  right: 0px;
   height: inherit;
   width: 100%;
   max-width: 232px;
@@ -122,6 +135,13 @@
     color: $color5;
     line-height: 17px;
   }
+}
+.bar-icon,
+.user-icon,
+.cart-icon,
+.search .search__icon,
+.logo .logo__image {
+  transition: all 0.8s ease 0s;
 }
 @media (min-width: 768px) {
   .header {

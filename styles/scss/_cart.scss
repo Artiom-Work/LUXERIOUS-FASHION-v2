@@ -115,8 +115,7 @@
     font-size: 12px;
     line-height: 119%;
     cursor: pointer;
-    transition-duration: 0.5s;
-
+    transition: all 0.8s ease 0s;
     @media (min-width: 768px) {
       text-transform: uppercase;
       max-width: 235px;
@@ -162,6 +161,7 @@
     &-image {
       width: 10px;
       height: 10px;
+      transition: all 0.8s ease 0s;
       @media (min-width: 768px) {
         width: 18px;
         height: 18px;
@@ -184,6 +184,8 @@
     display: block;
     height: 188px;
     width: 143.86px;
+    position: relative;
+    z-index: -1;
     @media (min-width: 768px) {
       width: 262px;
       height: 306px;
@@ -303,6 +305,7 @@
     font-size: 16px;
     line-height: 119%;
     margin: 0 10px;
+    transition: all 0.8s ease 0s;
   }
   @media (min-width: 768px) {
     margin: 19px 0 0;

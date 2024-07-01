@@ -24,9 +24,11 @@ function createTemplateProducts(productCards) {
 				</div>
 			</div>
 			<div class="brand-item__info-wrapper">
-				<h3 class="brand-item__name">
-				${name}
-				</h3>
+				<a class="brand-item__product-link" href="./product.html">
+					<h3 class="brand-item__name">
+						${name}
+					</h3>
+				</a>
 				<p class="brand-item__description">
 				${description}
 				</p>

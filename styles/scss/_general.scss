@@ -6,6 +6,9 @@ body {
 .hidden {
   display: none;
 }
+.visibility-hidden {
+  visibility: hidden;
+}
 .container {
   margin: 0 auto;
   max-width: 375px;
@@ -117,6 +120,7 @@ body {
     font-weight: 400;
     font-size: 11px;
     color: $color29;
+    transition: all 0.8s ease 0s;
     @media (min-width: 768px) {
       text-transform: uppercase;
     }

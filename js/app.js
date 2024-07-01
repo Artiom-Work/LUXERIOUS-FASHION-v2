@@ -10,7 +10,7 @@ let checkboxesLabelIcons = document.querySelectorAll('.filters__right-icon');
 let checkBoxesLists = document.querySelectorAll('.filters__right-list');
 
 iconLabelFilter.addEventListener('click', function (e) {
-	filterPopap.classList.toggle('hidden');
+	filterPopap.classList.toggle('visibility-hidden');
 	labelFilter.classList.toggle('filters__left-label--pink');
 	filterIcon.classList.toggle('filters__left-icon--pink');
 
@@ -30,10 +30,10 @@ filterNavHeadings.forEach(function (heading) {
 checkboxesLabelNames.forEach(function (name) {
 	name.addEventListener('click', function (e) {
 		checkBoxesLists.forEach(function (checkBoxesList) {
-			if (!checkBoxesList.classList.contains('hidden')) {
-				checkBoxesList.classList.add('hidden');
+			if (!checkBoxesList.classList.contains('visibility-hidden')) {
+				checkBoxesList.classList.add('visibility-hidden');
 			} else {
-				e.target.closest('.filters__right-label').nextElementSibling.classList.toggle('hidden');
+				e.target.closest('.filters__right-label').nextElementSibling.classList.toggle('visibility-hidden');
 			}
 		});
 	});
@@ -41,10 +41,10 @@ checkboxesLabelNames.forEach(function (name) {
 checkboxesLabelIcons.forEach(function (icon) {
 	icon.addEventListener('click', function (e) {
 		checkBoxesLists.forEach(function (checkBoxesList) {
-			if (!checkBoxesList.classList.contains('hidden')) {
-				checkBoxesList.classList.add('hidden');
+			if (!checkBoxesList.classList.contains('visibility-hidden')) {
+				checkBoxesList.classList.add('visibility-hidden');
 			} else {
-				e.target.closest('.filters__right-label').nextElementSibling.classList.toggle('hidden');
+				e.target.closest('.filters__right-label').nextElementSibling.classList.toggle('visibility-hidden');
 			}
 		});
 	});
