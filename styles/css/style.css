@@ -780,6 +780,7 @@ body {
 }
 .filters__left-label {
   cursor: pointer;
+  display: none;
   transition: all 0.8s ease 0s;
 }
 .filters__left-label--pink {
@@ -869,7 +870,7 @@ body {
 }
 .filters__right-icon {
   position: relative;
-  bottom: 2px;
+  bottom: 1px;
   cursor: pointer;
   transition: all 0.8s ease 0s;
 }
