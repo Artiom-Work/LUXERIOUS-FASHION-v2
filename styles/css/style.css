@@ -913,6 +913,9 @@ body {
   font-size: 14px;
   line-height: 16px;
 }
+.filters__right-option:not(:last-child) {
+  margin-bottom: 6px;
+}
 
 @media (min-width: 375px) {
   .filters__right {

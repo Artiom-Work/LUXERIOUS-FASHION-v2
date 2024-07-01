@@ -146,6 +146,9 @@
         line-height: 16px;
       }
     }
+    &-option:not(:last-child) {
+      margin-bottom: 6px;
+    }
   }
 }
 @media (min-width: 375px) {
