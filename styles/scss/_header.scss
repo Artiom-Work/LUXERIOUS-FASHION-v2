@@ -63,7 +63,9 @@
 }
 .cart-icon-wrp {
   span {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: -10px;
     top: -22px;
@@ -71,8 +73,6 @@
     font-size: 12px;
     line-height: 116%;
     color: $color2;
-    text-align: center;
-    align-content: center;
     width: 19px;
     height: 19px;
     background-color: $color3;

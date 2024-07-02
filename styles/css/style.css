@@ -45,7 +45,7 @@
   .product-characteristics__button:hover {
     color: var(--color3);
     background: var(--color13);
-    border: 1px solid var(--color3);
+    outline: 1px solid var(--color3);
   }
   .registration__button:hover {
     outline: 1px solid var(--color3);
@@ -344,7 +344,9 @@ body {
 }
 
 .cart-icon-wrp span {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   right: -10px;
   top: -22px;
@@ -352,8 +354,6 @@ body {
   font-size: 12px;
   line-height: 116%;
   color: var(--color2);
-  text-align: center;
-  align-content: center;
   width: 19px;
   height: 19px;
   background-color: var(--color3);
