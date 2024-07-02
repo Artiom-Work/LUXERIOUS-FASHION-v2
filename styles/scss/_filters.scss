@@ -37,7 +37,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 360px;
+    width: 320px;
     background: $color2;
     opacity: 1;
     transition: all 0.8s ease 0s;
@@ -156,6 +156,9 @@
     &__right {
       gap: 24px;
     }
+    &__popup {
+      width: 360px;
+    }
   }
 }
 @media (min-width: 768px) {
@@ -163,6 +166,9 @@
     padding: 24px 0 40px;
     .container {
       padding: 0;
+    }
+    &__popup {
+      width: 350px;
     }
     &__left {
       &-label {

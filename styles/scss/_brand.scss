@@ -30,6 +30,8 @@
       line-height: 29px;
     }
     & h1:last-child {
+      max-width: 377px;
+      width: 100%;
       font-family: $Lato;
       font-weight: 700;
       font-size: 20px;
@@ -37,6 +39,7 @@
       margin: 9px 0 0 0;
       span {
         color: $color3;
+        max-width: 142px;
       }
     }
   }
